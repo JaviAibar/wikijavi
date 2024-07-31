@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "aa8889ed24659fbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "830ec4a8e598dbe7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce81cf9f0770cf5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unity/Ejemplos de Unity/Ejemplo corrutina.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9e742d683e2fc44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unity/Ejemplos de Unity/Ejemplo corrutina.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2f6f333107baada",
+    "type": "split",
+    "children": [
+      {
+        "id": "e46e428690c6818d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5b50b8e8702120d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "07be50370707854a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "audio",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "833b268739d71334",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "26a7df5fd6f853d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0beace31f1689ed4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b513c7ba7c34700c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Unity/Ejemplos de Unity/Ejemplo corrutina.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f90b8ccb22cd1ce8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Unity/Ejemplos de Unity/Ejemplo corrutina.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "684186cc5361b2b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ceb6dc7a65f80e35",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unity/Ejemplos de Unity/Ejemplo corrutina.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "b9e742d683e2fc44",
+  "lastOpenFiles": [
+    "index.md",
+    "Unity/Ejemplos de Unity/Ejemplo corrutina.md",
+    "quartz/content/index.md",
+    "quartz/content",
+    "quartz/node_modules/cliui/build/lib/string-utils.js",
+    "quartz/node_modules/cliui/build/lib/index.js",
+    "quartz/node_modules/cliui/build/index.cjs",
+    "quartz/node_modules/cliui/build/index.d.cts",
+    "quartz/node_modules/cliui/build/lib",
+    "quartz/node_modules/cliui/build",
+    "quartz/node_modules/supports-preserve-symlinks-flag/test/index.js",
+    "quartz/node_modules/supports-preserve-symlinks-flag/README.md",
+    "quartz/node_modules/supports-preserve-symlinks-flag/LICENSE",
+    "quartz/node_modules/supports-preserve-symlinks-flag/test",
+    "quartz/node_modules/supports-preserve-symlinks-flag/CHANGELOG.md",
+    "quartz/node_modules/strip-ansi/readme.md",
+    "quartz/node_modules/slash/readme.md",
+    "quartz/node_modules/run-parallel/README.md",
+    "quartz/node_modules/remark-stringify/readme.md",
+    "quartz/node_modules/queue-microtask/README.md",
+    "quartz/node_modules/querystringify/README.md",
+    "quartz/node_modules/mime-types/README.md",
+    "quartz/node_modules/mime-types/HISTORY.md",
+    "quartz/node_modules/micromark-factory-space/readme.md",
+    "quartz/node_modules/micromark-extension-gfm-footnote/readme.md",
+    "quartz/node_modules/mdast-util-to-string/readme.md",
+    "quartz/node_modules/mdast-util-gfm-autolink-literal/readme.md",
+    "quartz/node_modules/hast-util-from-dom/readme.md",
+    "quartz/node_modules/color-convert/README.md",
+    "quartz/node_modules/color-convert/CHANGELOG.md",
+    "quartz/node_modules/brace-expansion/README.md",
+    "quartz/node_modules/balanced-match/README.md",
+    "quartz/node_modules/balanced-match/LICENSE.md",
+    "quartz/node_modules/bail/readme.md",
+    "quartz/node_modules/array-iterate/readme.md",
+    "quartz/node_modules/ansi-styles/readme.md",
+    "quartz/node_modules/cli-spinner/img/spinner.gif",
+    "quartz/node_modules/psl/browserstack-logo.svg",
+    "quartz/quartz/static/og-image.png",
+    "quartz/quartz/static/icon.png",
+    "quartz/docs/images/quartz transform pipeline.png",
+    "quartz/docs/images/github-quick-setup.png",
+    "quartz/docs/images/quartz layout.png",
+    "quartz/docs/images/github-init-repo-options.png",
+    "quartz/docs/images/giscus-results.png",
+    "quartz/docs/images/giscus-repo.png"
+  ]
+}

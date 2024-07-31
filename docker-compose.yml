@@ -1,0 +1,8 @@
+ perlite:
+    build:
+        context: ./perlite
+    environment:
+      - NOTES_PATH=Notes
+      - HIDE_FOLDERS=docs,private,trash
+    volumes:
+        - /home/user/myNotes:/var/www/perlite/Notes:ro
