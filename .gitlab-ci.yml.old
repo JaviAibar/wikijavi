@@ -1,29 +1,30 @@
 stages:
   - build
   - deploy
-
+ 
 image: node:18
-cache:
+cache: # Cache modules in between jobs
   key: $CI_COMMIT_REF_SLUG
   paths:
     - .npm/
-
+ 
 build:
   stage: build
+  before_script:
+    - hash -r
+    - npm ci --cache .npm --prefer-offline
   script:
-    - echo "Building the site..."
+    - npx quartz build
   artifacts:
     paths:
       - public
-
+  tags:
+    - docker
+ 
 pages:
   stage: deploy
   script:
-    - mkdir .public
-    - cp -r * .public
-    - mv .public public
+    - echo "Deploying to GitLab Pages..."
   artifacts:
     paths:
       - public
-  only:
-    - main
