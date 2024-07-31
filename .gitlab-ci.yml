@@ -12,6 +12,7 @@ build:
   stage: build
   script:
     - echo "Building the site..."
+    - npx quartz build 
   artifacts:
     paths:
       - public
