@@ -11,6 +11,7 @@ cache:
 build:
   stage: build
   script:
+    - npm ci
     - echo "Building the site..."
     - npx quartz build 
   artifacts:
