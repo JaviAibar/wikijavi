@@ -1,8 +1,3 @@
 ---
-title: Welcome to Quartz
+title: Welcome WikiJavi, develeped with Obsidian and Quartz
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
-[[Unity/Ejemplos de Unity/Ejemplo corrutina|Ejemplo corrutina]]
