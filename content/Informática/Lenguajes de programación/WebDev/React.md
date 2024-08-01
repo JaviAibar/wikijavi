@@ -25,6 +25,15 @@ Puedes empezar a trabajar con él importando las librerías. Además hay un par 
 </html>
 ```
 
+Supongo que para evitar que tu pág caiga si cae el CDN, es recomendable instalar React en tu proyecto. 
+
+Para ello, podrías utilizar npm (o el sistema que tengas, nginx, por ejemplo), borrar las referencias e importar 
+
+```js
+import React from "react"
+```
+
+Aunque parece que en la v17 ya no es necesario 
 # Qué es?
 
 Funciona con jsx, que parece html pero en realidad es js. puedes hacer 
@@ -108,9 +117,9 @@ export default MiComponente;
 
 # Estructura
 
-La mayoría de elementos estarán en la carpeta src/
+La mayoría de elementos estarán en la carpeta `src/`
 
-El `index.html` (fuera de src) carga la raíz de la app `src/index.jsx`
+El `index.html` (fuera de `src`) carga la raíz de la app `src/index.jsx`
 
 `index.jsx` a su vez carga `src/app.jsx` que carga los componentes React. El proyecto de Glitch carga `wouter` como enrutador
 
