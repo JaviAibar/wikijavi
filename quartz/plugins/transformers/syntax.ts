@@ -11,10 +11,18 @@ interface Options {
   keepBackground?: boolean
 }
 
-const defaultOptions: Options = {
+/*const defaultOptions: Options = {
   theme: {
     light: "github-light",
     dark: "github-dark",
+  },
+  keepBackground: false,
+}*/
+
+const defaultOptions: Options = {
+  theme: {
+    light: "github-light",
+    dark: "dark-plus",
   },
   keepBackground: false,
 }
