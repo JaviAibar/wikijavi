@@ -9,19 +9,19 @@ Entonces Gitlab ejecuta automáticamente unos procesos (Pipelines CI/CD) que son
 
 Tenemos los wikilinks que sirven para referenciar enlaces dentro de la propia wiki, estos se hacen con doble corchete  
 
-```
+```markdown
 [[Unity/Ejemplos de Unity/Ejemplo corrutina]]
 ```
 
 Si queremos referencia dentro de la misma nota, además del doble corchete se usa almohadilla #
 
-```
+```markdown
 [[#Configuración en detalle]]
 ```
 
 En ambos casos, si queremos que cambiar el título del enlace, se usa barra vertical
 
-```
+```markdown
 [[#Configuración en detalle|Indicaciones]]
 ``` 
 
@@ -51,7 +51,6 @@ Ahora debemos borrar la carpeta .git que se ha descargado con el clonado e inici
 Dentro de la carpeta content, creamos el Vault de Obsidian.
 
 Dentro de la carpeta raíz, debemos crear un archivo llamado `.gitlab-ci.yml` que contendrá lo siguiente (más info [[Informática/git/CI-CD/GitLab Implementación de CI-CD#Creación de archivo `.gitlab-ci.yml`|en su nota]])
-[[#]]
 
 ```yaml
 stages:
