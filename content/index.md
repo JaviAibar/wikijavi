@@ -7,4 +7,4 @@ title: Bienvenido a WikiJavi, una web desarrollada con Obsidian y publicada con 
 |                                                                                                          |                                                                                                                 | [[Unity/Ejemplos de Unity/Ejemplo corrutina]] |     |
 |                 |                                                                                                                 |                                               |     |
 |   [![[Pasted image 20240731183320.png]]](<Unity/Ejemplos de Unity/Ejemplo corrutina>)                                                                                                       |                                                                                                                 |                                               |     |
-[[]]
+![[Sin título.canvas]]
