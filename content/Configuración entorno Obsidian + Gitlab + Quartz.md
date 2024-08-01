@@ -93,7 +93,6 @@ Esto será procesado automáticamente por gitlab para que Quartz haga la build (
 > [!warning]  Siendo gitlab, probablemente la rama esté protegida
 > Para desbloquearla deberás hacer lo indicado [[Informática/git/Gitlab|en esta página]]
 
-
-
+Y creo que eso es todo
 
 
