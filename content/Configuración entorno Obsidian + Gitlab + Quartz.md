@@ -8,6 +8,7 @@ Entonces Gitlab ejecuta automáticamente unos procesos (Pipelines CI/CD) que son
 ## Enlaces
 
 Tenemos los wikilinks que sirven para referenciar enlaces dentro de la propia wiki, estos se hacen con doble corchete  
+
 ```
 [[Unity/Ejemplos de Unity/Ejemplo corrutina]]
 ```
@@ -30,6 +31,10 @@ más info en la [web oficial](https://help.obsidian.md/Linking+notes+and+files/I
 
 https://quartz.jzhao.xyz/features/syntax-highlighting
 
+## Lenguajes de programación aceptados
+
+https://prismjs.com/#supported-languages
+
 # Configuración en detalle
 
 Primero vamos a clonar el proyecto Quartz ya que dentro de éste es donde debe vivir nuestro <abbr title="Traducido como bóveda. Nombre que se le da a la base de conocimiento que generas con Obsidian">Vault</abbr>.
@@ -40,11 +45,47 @@ cd quartz
 npm i
 npx quartz create
 ```
+
 Ahora debemos borrar la carpeta .git que se ha descargado con el clonado e iniciamos el repositorio.
 
-Ahora tenemos que entrar el la carpeta 
-
 Dentro de la carpeta content, creamos el Vault de Obsidian.
+
+Dentro de la carpeta raíz, debemos crear un archivo llamado `.gitlab-ci.yml` que contendrá lo siguiente
+
+```yaml
+stages:
+  - build
+  - deploy
+
+image: node:18
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - node_modules/
+
+build:
+  stage: build
+  script:
+    - npm ci
+    - echo "Building the site..."
+    - npx quartz build 
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+
+```
 
 
 

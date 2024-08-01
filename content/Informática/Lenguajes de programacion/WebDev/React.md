@@ -43,12 +43,9 @@ Podemos insertar """html""" directamente desde js gracias a la siguiente línea
 ReactDOM.render(<h1>Hola a todos</h1>, document.getElementById("root"))
 ```
 
-Sin embargo, desde la v18 `{:jsx}ReactDOM.render{:jsx}` está obsoleto
+Sin embargo, desde la v18 `ReactDOM.render{:js}` está obsoleto
 
-esta otra `{python} 'result if true'.method() if 1 else result_if_false.property`
-
-esta cosa `{python icon title:foo} print("This is inline code")`
-
+Otra prueba de inline `console.log("Hola mundo!"){:js}`
 
 # Qué es?
 
