@@ -34,6 +34,22 @@ import React from "react"
 ```
 
 Aunque parece que en la v17 ya no es necesario 
+
+# Hola mundo
+
+Podemos insertar """html""" directamente desde js gracias a la siguiente línea
+
+```jsx
+ReactDOM.render(<h1>Hola a todos</h1>, document.getElementById("root"))
+```
+
+Sin embargo, desde la v18 `{:jsx}ReactDOM.render{:jsx}` está obsoleto
+
+esta otra `{python} 'result if true'.method() if 1 else result_if_false.property`
+
+esta cosa `{python icon title:foo} print("This is inline code")`
+
+
 # Qué es?
 
 Funciona con jsx, que parece html pero en realidad es js. puedes hacer 
