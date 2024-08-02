@@ -39,7 +39,7 @@ Tanto la imagen como el enlace pueden ser online
 [![Google logo](https://images.com/Google.jpg)](<http://google.es>)
 ```
 
-[![Google logo](https://c.clc2l.com/t/g/o/google-A7roaL.jpg)](<http://google.es>)
+[![Google logo|100](https://c.clc2l.com/t/g/o/google-A7roaL.jpg)](<http://google.es>)
 
 más info en la [web oficial](https://help.obsidian.md/Linking+notes+and+files/Internal+links#:~:text=To%20link%20to%20a%20heading,to%20Preview%20a%20linked%20file.&text=To%20link%20to%20a%20heading%20in%20another%20note%2C%20add%20a,followed%20by%20the%20heading%20text.)
 

@@ -31,6 +31,7 @@ Para ello, podrías utilizar npm (o el sistema que tengas, nginx, por ejemplo), 
 
 ```js
 import React from "react"
+import ReactDOM from "react-dom/client"
 ```
 
 Aunque parece que en la v17 ya no es necesario 
@@ -45,7 +46,11 @@ ReactDOM.render(<h1>Hola a todos</h1>, document.getElementById("root"))
 
 Sin embargo, desde la v18 `ReactDOM.render{:js}` está obsoleto
 
-Otra prueba de inline `console.log("Hola mundo!"){:js}`
+por lo que ahora se hace así
+
+```jsx
+ReactDOM.createRoot(document.getElementById("root")).render(<h1>Hola a todos</h1>)
+```
 
 # Qué es?
 

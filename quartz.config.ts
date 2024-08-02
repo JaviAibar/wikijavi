@@ -61,10 +61,19 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
+          dark: "dark-plus",
+        },
+        keepBackground: false,
+      }),
+      /*
+      Plugin.SyntaxHighlighting({
+        theme: {
+          light: "github-light",
           dark: "github-dark",
         },
         keepBackground: false,
       }),
+      */
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
