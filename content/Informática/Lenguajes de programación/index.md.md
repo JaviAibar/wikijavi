@@ -1,3 +1,0 @@
----
-title: Lenguajes de programación
----
