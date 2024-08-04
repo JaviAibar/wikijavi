@@ -1,3 +1,11 @@
+Para un PowerUp para Trello [[PowerUp para Trello|click aquí]]
+# Importar librerías
+
+Existen 3 formas de importar librerías:
+
+- esm (ES6) (works with import syntax — recommended)
+- umd (works with `<script>` tags or RequireJS)
+- cjs (works with require() syntax)
 # Tengo un problema
 
 ## Uncaught ReferenceError: require is not defined

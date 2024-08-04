@@ -1,0 +1,1 @@
+Es un preprocesador de archivos web [ViteJS](https://vitejs.dev/), por ejemplo nos sirve para importar módulos como los de [[React]]

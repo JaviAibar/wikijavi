@@ -25,17 +25,6 @@ Puedes empezar a trabajar con él importando las librerías. Además hay un par 
 </html>
 ```
 
-Supongo que para evitar que tu pág caiga si cae el CDN, es recomendable instalar React en tu proyecto. 
-
-Para ello, podrías utilizar npm (o el sistema que tengas, nginx, por ejemplo), borrar las referencias e importar 
-
-```js
-import React from "react"
-import ReactDOM from "react-dom/client"
-```
-
-Aunque parece que en la v17 ya no es necesario 
-
 # Hola mundo
 
 Podemos insertar """html""" directamente desde js gracias a la siguiente línea
@@ -88,6 +77,68 @@ export default function MyApp() {
   );
 }
 ```
+
+## Cambiar de CDN a la instalación
+
+Supongo que para evitar que tu pág caiga si cae el CDN, es recomendable instalar React en tu proyecto. 
+
+Para ello, podrías utilizar npm (o el sistema que tengas, nginx, por ejemplo), borrar las referencias e importar 
+
+```js
+import React from "react"
+import ReactDOM from "react-dom/client"
+```
+
+Sin embargo, no puedes importar los módulos así tal cual. Aparentemente porque el navegador no entiende los módilos ES6 (ESM) de JavaScript sin procesamiento previo. Para lo cual podemos utilizar [[ViteJS]] entre otros.
+
+El `package.json` quedaría por tanto así (ejemplo con [[NodeJS]])
+
+```json
+{
+  "modules": "commonJS",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.3.5"
+  }
+}
+```
+
+Entonces en el `index.html` tenemos que incluir los archivos React utilizando `type="module{:html}`
+
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Hello, React!</h1>
+    <div id="root"></div>
+    <script type="module" src="index.jsx"></script>
+</body>
+</html>
+```
+
+El archivo `index.jsx` contiene lo siguiente
+
+```jsx
+import React from "react"
+import { createRoot } from 'react-dom/client';
+
+// Render your React component instead
+const root = createRoot(document.getElementById('root'));
+root.render(<h1>Hello, world</h1>);
+```
 # Pasar datos desde dentro del componente al padre
 
 `Compo`, padre de `MiComponente`
@@ -133,7 +184,7 @@ const MiComponente = ({ onEjecutar }) => {
 export default MiComponente;
 ```
 
-# Estructura
+# Estructura en Glitch
 
 La mayoría de elementos estarán en la carpeta `src/`
 

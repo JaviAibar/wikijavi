@@ -22,39 +22,33 @@ Pero si el nivel de especifidad (Specificity) es mayor, entonces prevalece ese, 
 
 Podemos seleccionar por atributos
 
+```css
 [href]{
-
    color: magenta;
-
 } 
-
+```
 Y podemos seleccionar por valores, ejemplo: imágenes que contengan la palabra "winter"
 
+```css
 img[src*='winter'] {
-
   height: 50px;
-
 }
-
-  
 
 img[src*='summer'] {
-
   height: 100px;
-
 }
-
+```
 ## Pseudo-clases
 
 De todos los elementos se pueden seleccionar, al menos, alguna pseudo-clases
 
-p:hover { background-color: darkorange; }
+`p:hover { background-color: darkorange; }{:css}`
 
 El modelo de caja (BoxModel Box Model)
 
 Los navegadores cargan elementos HTML con valores de posición predeterminados. Esto a menudo conduce a una experiencia de usuario inesperada y no deseada, al tiempo que limita las vistas que puede crear.
 
-![](https://lh5.googleusercontent.com/0KCJnclMfH1Hwum2QlDdCPt8ftSQwvAblE0_RRNyx6EgNnIU_ahYSRp8yvgs5sc4ITcacce44l9dctdUI-9tp7I5yWhtqmtJS6liZDbwy5_hg-3Fmyo1gLt6_76KouhEew=w1280)
+![[../../../../zz Media/Pasted image 20240804185309.png]]
 
 # Util 
 ## centrar
@@ -65,11 +59,10 @@ margin: 0 auto;
 
 ### [[Posicionamiento absoluto dentro de un elemento]]
 
-[![](https://lh6.googleusercontent.com/741eORzfvBBk49E-wBbX4xFDvpBT_Gpvu6kPDtTWjdAFgDv9jcT_ZpeYa_CmDQ157uMIdl-e3al8qN5UB2ZS8lMHnHey8enHa3moGUoJ2o8=w1280)](<Informática/Lenguajes de programación/WebDev/CSS/Posicionamiento absoluto dentro de un elemento>)
-
+[![[../../../../zz Media/Pasted image 20240804184830.png]]](<Informática/Lenguajes de programación/WebDev/CSS/Posicionamiento absoluto dentro de un elemento>)
 ### [[Centrado moderno]]
 
-![](https://lh6.googleusercontent.com/RSNGTWBi7G1L_uRtEIJBorlJZWq3Pekm92kWTtajSXpweQEsNMU4ENBimbsyB5utzNqoeiQ7N5eEKUSgK1PDBhQ=w1280)
+![[../../../../zz Media/Pasted image 20240804185405.png]]
 
 # Bibliografía
 
