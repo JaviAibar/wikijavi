@@ -17,4 +17,4 @@ Expandir (Spread) - Hacer más grande el cuadrado usado antes de emborronar
 
 Emborronar (Blur)
 
-Color y Opacidad (rgba(r, g, b, a) de 0 a 250 y a de 0 a 1 o formato html #ffffff)
+Color y Opacidad (rgba(r, g, b, a) de 0 a 250 y a de 0 a 1 o formato html `#ffffff`)

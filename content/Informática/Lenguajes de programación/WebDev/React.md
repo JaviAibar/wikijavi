@@ -78,6 +78,7 @@ export default function MyApp() {
 }
 ```
 
+Se importa con `import MyApp from "./MyApp"{:jsx}` (no es necesario incluir la extensión del archivo, porque es por defecto)
 ## Cambiar de CDN a la instalación
 
 Supongo que para evitar que tu pág caiga si cae el CDN, es recomendable instalar React en tu proyecto. 
@@ -139,6 +140,25 @@ import { createRoot } from 'react-dom/client';
 const root = createRoot(document.getElementById('root'));
 root.render(<h1>Hello, world</h1>);
 ```
+
+# Cargar y usar recursos
+
+Se hace también con `import`
+
+```jsx
+import logo from "./images/logo.png"
+import "./style.css"
+```
+
+Se pueden usar entre llaves
+
+```jsx
+<img src={logo}></img>
+```
+
+>[!NOTE] Nota
+>Ese css que acabamos de cargar podrá utilizarse en todos los componentes que se incluyan a partir de aquí, es decir, los componentes hijos también recibirán el efecto
+
 # Pasar datos desde dentro del componente al padre
 
 `Compo`, padre de `MiComponente`
