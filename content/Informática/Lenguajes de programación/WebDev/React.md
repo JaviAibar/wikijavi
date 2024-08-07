@@ -159,6 +159,88 @@ Se pueden usar entre llaves
 >[!NOTE] Nota
 >Ese css que acabamos de cargar podrá utilizarse en todos los componentes que se incluyan a partir de aquí, es decir, los componentes hijos también recibirán el efecto
 
+# Datos
+
+La información en react siempre pasa de arriba hacia abajo
+
+Se diferencia prop de estado. 
+
+* Prop es lo que baja a los componentes hijos y/o se puede calcular en base a otros datos
+* Estado es lo que cambia con el tiempo
+
+## prop
+
+Este es un dato que se pasa a los hijos
+
+```jsx
+function Square({ value }) {
+  return <button className="square">{value}</button>;
+}
+```
+
+```jsx
+export default function Board() {
+  return (
+    <>
+      <div className="board-row">
+        <Square value="1" />
+        <Square value="2" />
+        <Square value="3" />
+      </div>
+      <!-- ... -->
+    </>
+  );
+}
+```
+
+
+## Guardar estado (useState)
+
+Se gestiona mediante el estado, usando el `hook` `useState`
+
+```jsx {1,4,7}
+import { useState } from 'react';
+
+function Square() {
+  const [value, setValue] = useState(null);
+
+  function handleClick() {
+    setValue('X');
+  }
+
+  return (
+    <button
+      className="square"
+      onClick={handleClick}>
+      {value}
+    </button>
+  );
+```
+
+# Interactividad
+
+```jsx
+function Square({ value }) {
+  function handleClick() {
+    console.log('¡hiciste clic!');
+  }
+
+  return (
+    <button
+      className="square"
+      onClick={handleClick}>
+      {value}
+    </button>
+  );
+}
+```
+
+> [!warning] Cuidado
+> La función que pasas a onClick debe ser sin paréntesis, ya que por temas de actualización de los componentes , probablemente acabes causando un **bucle infinito**.
+> Para pasar argumentos, deberás usar la forma `onClick={() => handleClick("mi argumento")}{:jsx}`
+
+
+
 # Pasar datos desde dentro del componente al padre
 
 `Compo`, padre de `MiComponente`

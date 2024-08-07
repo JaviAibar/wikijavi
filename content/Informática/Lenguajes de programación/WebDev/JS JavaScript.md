@@ -6,6 +6,11 @@ Existen 3 formas de importar librerías:
 - esm (ES6) (works with import syntax — recommended)
 - umd (works with `<script>` tags or RequireJS)
 - cjs (works with require() syntax)
+
+# Sintaxis expandida (Spread)
+
+#WIP
+
 # Tengo un problema
 
 ## Uncaught ReferenceError: require is not defined
@@ -27,3 +32,7 @@ Ese archivo `addEvent.js` será el usado por el cliente. Y ahí podemos acceder 
 ```js
 const Handlebars = window.Handlebars;
 ```
+
+
+# Bibliografía
+[Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
