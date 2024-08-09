@@ -1,3 +1,5 @@
+#WIP 
+
 ![[/zz Media/Pasted image 20240802161354.png]]
 
 
@@ -28,3 +30,8 @@ Si al primer container le ponemos `justify-content: space-between{:css}` se dist
 ## Mi imagen se ha aplastado
 
 Puedes resolver eso con `align-items: center;{:css}`
+
+
+# Bibliografía
+
+https://web.dev/learn/css/flexbox?hl=es 

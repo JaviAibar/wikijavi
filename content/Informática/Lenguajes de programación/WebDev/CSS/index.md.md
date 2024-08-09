@@ -1,3 +1,6 @@
+## Trucos de CSS
+
+https://css-tricks.com/tag/css/
 # Enlazado
 
 El atributo rel es obligatorio
@@ -57,10 +60,10 @@ margin: 0 auto;
 
 ## Posicionamientos y centrados
 
-### [[Posicionamiento absoluto dentro de un elemento]]
+### [[Posicionamiento y cajas/Posicionamiento absoluto dentro de un elemento]]
 
-[![[../../../../zz Media/Pasted image 20240804184830.png]]](<Informática/Lenguajes de programación/WebDev/CSS/Posicionamiento absoluto dentro de un elemento>)
-### [[Centrado moderno]]
+[![[../../../../zz Media/Pasted image 20240804184830.png]]](Posicionamiento%20y%20cajas/Posicionamiento%20absoluto%20dentro%20de%20un%20elemento.md de programación/WebDev/CSS/Posicionamiento absoluto dentro de un elemento>)
+### [[Posicionamiento y cajas/Centrado moderno]]
 
 ![[../../../../zz Media/Pasted image 20240804185405.png]]
 

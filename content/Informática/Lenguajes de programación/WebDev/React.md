@@ -198,6 +198,8 @@ export default function Board() {
 
 Se gestiona mediante el estado, usando el `hook` `useState`
 
+Y cada componente será independiente, por ejemplo si tenemos `<><Square /><Square /></>{:jsx}` cada componente Square tendrá su propio estado
+
 ```jsx {1,4,7}
 import { useState } from 'react';
 
