@@ -1,5 +1,7 @@
 # Intro
 
+Utiliza [[JS JavaScript/index#ES6|ES6]]
+
 Para la [guía de estilos aquí](https://sites.google.com/view/wikijavi/inform%C3%A1tica/lenguajes-de-programaci%C3%B3n/web-development/react/gu%C3%ADa-estilos-react?authuser=0)
 
 Puedes empezar a trabajar con él importando las librerías. Además hay un par de cosas más recomendadas aquí tienes todo
