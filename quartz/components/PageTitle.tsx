@@ -8,7 +8,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h1 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}><img src="./static/icon.png" style="height: 2em;  vertical-align: middle;" />{title}</a>
+      <a href={baseDir}><img src="https://javiaib.gitlab.io/wikijavi/static/icon.png" style="height: 2em;  vertical-align: middle;" />{title}</a>
     </h1>
   )
 }
