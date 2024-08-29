@@ -40,7 +40,11 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
+    Component.PageTitle({
+      title: (config) => {
+        return `<img src="./static/icon.png" style="height: 1em; margin-right: 0.5em; vertical-align: middle;"> ${config.pageTitle}`
+      },
+    }),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
