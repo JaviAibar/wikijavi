@@ -22,8 +22,8 @@ pages:
   stage: deploy
   script:
     - mkdir .public
-    - Get-ChildItem -Path . -Exclude .public | ForEach-Object { Copy-Item $_.FullName -Destination .public -Recurse -Force }
-    #  - cp -r * .public # version Linux
+    #  - Get-ChildItem -Path . -Exclude .public | ForEach-Object { Copy-Item $_.FullName -Destination .public -Recurse -Force }
+    - cp -r * .public # version Linux
     - mv .public public
   artifacts:
     paths:
