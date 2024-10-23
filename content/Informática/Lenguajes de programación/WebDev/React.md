@@ -2,6 +2,10 @@
 
 Utiliza [[JS JavaScript/index#ES6|ES6]]
 
+Tiene varias opciones:
+
+*
+
 Para la [guía de estilos aquí](https://sites.google.com/view/wikijavi/inform%C3%A1tica/lenguajes-de-programaci%C3%B3n/web-development/react/gu%C3%ADa-estilos-react?authuser=0)
 
 Puedes empezar a trabajar con él importando las librerías. Además hay un par de cosas más recomendadas aquí tienes todo
@@ -27,6 +31,40 @@ Puedes empezar a trabajar con él importando las librerías. Además hay un par 
 </html>
 ```
 
+# Crear un nuevo proyecto
+
+Existen varias opciones
+## Next.js
+
+Con el siguiente comando creas un nuevo proyecto `Next.js` que está basado en [Next.js' Pages Router](https://nextjs.org/) que es un `framework full-stack` de React
+
+```shell
+npx create-next-app@latest
+```
+
+## Remix
+
+Es un `framework full-stack` de React con enrutado anidado. Las partes anidadas pueden cargar datos en paralelo
+
+```shell
+npx create-remix
+```
+
+## Gatsby
+
+Creo que es para `CMS`. Tiene muchos `plugins` y los datos con `GraphQL`
+
+```shell
+npx create-gatsby
+```
+
+## Expo
+
+Aplicaciones nativas en `Android, iOS y webapps`
+
+```shell
+npx create-expo-app
+```
 # Hola mundo
 
 Podemos insertar """html""" directamente desde js gracias a la siguiente línea

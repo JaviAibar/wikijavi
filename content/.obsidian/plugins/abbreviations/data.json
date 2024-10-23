@@ -1,0 +1,20 @@
+{
+  "abbreviations": {
+    "cx": {
+      "value": "```xml",
+      "isEnabled": true,
+      "position": 0
+    },
+    "cs": {
+      "value": "```cs",
+      "isEnabled": true,
+      "position": 2,
+      "isCaseSensitive": false
+    },
+    "cf": {
+      "value": "```",
+      "isEnabled": true,
+      "position": 1
+    }
+  }
+}

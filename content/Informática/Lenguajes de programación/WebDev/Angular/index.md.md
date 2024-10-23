@@ -84,6 +84,15 @@ _housing-location.component.ts_
 import {Component, Input} from '@angular/core';
 ```
 
+Creamos la clave mediante la que pasaremos la info `housingLocation` y definiremos el tipo de dato `HousingLocation`
+
+_housing-location.component.ts_
+```ts
+export class HousingLocationComponent {
+  @Input() housingLocation!: HousingLocation;
+}
+```
+
 Luego se pasa la info desde el template así
 La parte entre corchetes es el nombre "key" que espera el componente app-housing-location. housingLocationVar es el "value" que recibe el componente
 
@@ -460,6 +469,10 @@ filterResults(event: Event, text: string) {
     );
   }
 ```
+
+## Comunicación HTTP / Peticiones API
+
+
 ## Cosas raras
 
 La exclamación le indica al compilador de TS que, no debe ser null, a esa exclamación se la llama el [non-null assertion operator](https://www.omarileon.me/blog/typescript-non-null-assertion)
