@@ -8,6 +8,7 @@ en el contexto de XAML son las caracteristicas que configuras dentro de las etiq
 
 Ejemplo:
 
+==prueba== 
 \<Label ==Height="20" Content="Mi etiqueta"== />
 
 en el contexto de C# la de crear ese mix entre variable y método

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Informática/Lenguajes de programación/WPF/2- WPF Crear proyecto.md",
+                "file": "Informática/Lenguajes de programación/WPF/Terminología WPF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2- WPF Crear proyecto"
+              "title": "Terminología WPF"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Informática/Lenguajes de programación/WPF/2- WPF Crear proyecto.md"
+                "file": "Informática/Lenguajes de programación/WPF/Terminología WPF.md"
               },
               "icon": "lucide-list",
-              "title": "Esquema de 2- WPF Crear proyecto"
+              "title": "Esquema de Terminología WPF"
             }
           }
         ],
@@ -179,6 +179,10 @@
   },
   "active": "98555871918dc955",
   "lastOpenFiles": [
+    "Informática/Lenguajes de programación/WPF/WPF Crear estilos y plantillas.md",
+    "Informática/Lenguajes de programación/WPF/2- WPF Crear proyecto.md",
+    "Informática/Lenguajes de programación/WPF/1- WPF Importante.md",
+    "Informática/Lenguajes de programación/Patrones de diseño/Clean Code/Index.md",
     "Informática/Lenguajes de programación/Prism/Prism Dependencias.md",
     "Informática/Lenguajes de programación/Prism/Prism DataContext.md",
     "Informática/Lenguajes de programación/Prism/Prism Crear propiedades.md",
@@ -186,14 +190,11 @@
     "Informática/Lenguajes de programación/Prism/1- Prism Crear proyecto.md",
     "Informática/Lenguajes de programación/Prism/Prism Navigation.md",
     "Informática/Lenguajes de programación/Prism/Prism Regions.md",
-    "Informática/Lenguajes de programación/WPF/2- WPF Crear proyecto.md",
     "Pasted image 20241022235346.png",
-    "Informática/Lenguajes de programación/WPF/1- WPF Importante.md",
     "Informática/Lenguajes de programación/Patrones de diseño/(DI) Dependency Inyection.md",
     "Informática/Lenguajes de programación/Patrones de diseño/patrón de diseño SOLID design pattern.md",
     "zz Media/Pasted image 20241022235034.png",
     "zz Media/Pasted image 20241018210004.png",
-    "Informática/Lenguajes de programación/Patrones de diseño/Clean Code/Index.md",
     "Informática/Lenguajes de programación/CSharp/Snippets.md",
     "Informática/Lenguajes de programación/Patrones de diseño/Clean Code/10 consejos.md",
     "Informática/Lenguajes de programación/Prism/Prism ViewModelLocator.md",
@@ -206,7 +207,6 @@
     "Informática/Lenguajes de programación/WPF/WPF Ejemplo ModernUI.md",
     "Informática/Lenguajes de programación/WPF/WPF distinguir build y debug.md",
     "Informática/Lenguajes de programación/WPF/WPF Datos y archivos.md",
-    "Informática/Lenguajes de programación/WPF/WPF Crear estilos y plantillas.md",
     "Informática/Lenguajes de programación/WPF/Terminología WPF.md",
     "Informática/Lenguajes de programación/Prism/Prism Implementaciones específicas",
     "Informática/Lenguajes de programación/Prism/Prism Problems",
