@@ -1,1 +1,0 @@
-Está explicado en [[2- WPF Crear proyecto]]

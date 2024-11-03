@@ -1,8 +1,8 @@
-Para un PowerUp para Trello [[PowerUp para Trello|click aquí]]
+_Para ver un ejemplo de PowerUp para Trello [[PowerUp para Trello|click aquí]]_
 
 NodeJS es también JS pero para el servidor y orientado a eventos asíncronos
 
-Permite el uso de package.json donde podemos indicar los framework y librerías que son dependencias del proyecto.
+Permite el uso de `package.json` donde podemos indicar los `framework y librerías` que son `dependencias` del proyecto.
 
 Ejemplo
 
@@ -25,6 +25,34 @@ Ejemplo
 ```
 
 Entonces ponemos el comando `npm i{:bash}` y se instalarán todas las librerías que falten
+
+En scripts podríamos también incluir cualquier librería que hayamos instalado
+
+```json
+"scripts": {
+    "tu-paquete": "tu-paquete"
+}
+```
+
+y ejecutarla con
+
+```bash
+npm run tu-paquete
+```
+
+Desde la versión 5.2.0 incluye el comando `npx` para facilitar la instalación y gestión de dependencias.
+
+Ejecutar un paquete sería
+
+```bash
+npx tu-paquete
+``` 
+
+O ejecutar directamente desde Github
+
+```bash
+npx https://gist.github.com/Tynael/0861d31ea17796c9a5b4a0162eb3c1e8
+```
 ## Funciones
 
 Se definen como
@@ -128,3 +156,5 @@ myPromise
 [https://youtu.be/1hpc70_OoAg](https://youtu.be/1hpc70_OoAg) 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+https://www.freecodecamp.org/espanol/news/npm-vs-npx-cual-es-la-diferencia/

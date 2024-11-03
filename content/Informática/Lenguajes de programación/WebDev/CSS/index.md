@@ -5,17 +5,20 @@ https://css-tricks.com/tag/css/
 
 El atributo rel es obligatorio
 
+```html
 <link href='./style.css' rel='stylesheet'> 
-
+```
 # Selectores
 
 ## Sobreescritura
 
 el siguiente selector sobreescribe al anterior, es decir, los css se procesan de arriba a abajo, si encuentra un selector nuevo en conflicto con uno ya existente, prevalece el nuevo
 
+```css
 * { font-size:1px; }
 
 h1 { font-size: 20px }
+```
 
 Todas los textos menos los h1 serán de 1px.
 
@@ -30,6 +33,7 @@ Podemos seleccionar por atributos
    color: magenta;
 } 
 ```
+
 Y podemos seleccionar por valores, ejemplo: imágenes que contengan la palabra "winter"
 
 ```css

@@ -1,4 +1,4 @@
-Para referenciar las plantillas que creemos usaremos StaticResource como se explica en la sección [[# WPF Referenciar recursos]]
+Para referenciar las plantillas que creemos usaremos StaticResource como se explica en la sección [[WPF Referenciar recursos]]
 
 # Bindings
 

@@ -4,7 +4,9 @@ Utiliza [[JS JavaScript/index#ES6|ES6]]
 
 Tiene varias opciones:
 
-*
+Funciona con [[NodeJS]] 
+
+Crea un ==DOM virtual== para editar lo que necesite y luego al DOM del navegador, así cambiar ==solo== lo necesario
 
 Para la [guía de estilos aquí](https://sites.google.com/view/wikijavi/inform%C3%A1tica/lenguajes-de-programaci%C3%B3n/web-development/react/gu%C3%ADa-estilos-react?authuser=0)
 
@@ -81,9 +83,14 @@ por lo que ahora se hace así
 ReactDOM.createRoot(document.getElementById("root")).render(<h1>Hola a todos</h1>)
 ```
 
-# Qué es?
+>[!Note] Fíjate
+>Las funciones createRoot() y render() hacen que el DOM se actualice
+>
+>Creo que createRoot() crea el VDOM y render() lo aplica
+ 
+# Qué es JSX?
 
-Funciona con jsx, que parece html pero en realidad es js. puedes hacer 
+Parece html pero en realidad es js. puedes hacer 
 
 ```jsx
 var h1 = <h1>hola mundo</h1>
@@ -119,7 +126,84 @@ export default function MyApp() {
 ```
 
 Se importa con `import MyApp from "./MyApp"{:jsx}` (no es necesario incluir la extensión del archivo, porque es por defecto)
-## Cambiar de CDN a la instalación
+
+## Condicionales
+
+Siempre ==fuera== del JSX
+
+```jsx
+const x = 5;
+let text = "Goodbye";
+if (x < 10) {
+  text = "Hello";
+}
+
+const myElement = <h1>{text}</h1>;
+```
+
+o dentro de llaves con el ==operador ternario==
+
+```jsx
+const x = 5;
+
+const myElement = <h1>{(x) < 10 ? "Hello" : "Goodbye"}</h1>;
+```
+
+Un ejemplo eligiendo qué [[#Componente de Función|componente]] renderizar
+
+```jsx
+function Goal(props) {
+  const isGoal = props.isGoal;
+  if (isGoal) {
+    return <MadeGoal/>;
+  }
+  return <MissedGoal/>;
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Goal isGoal={false} />);
+```
+
+Otra forma
+
+```jsx
+function Goal(props) {
+  const isGoal = props.isGoal;
+  return (
+    <>
+      { isGoal ? <MadeGoal/> : <MissedGoal/> }
+    </>
+  );
+}
+```
+
+### Operador lógico &&
+
+Solo si la condición es verdadera, carga lo de la derecha del `&&`
+```jsx
+function Garage(props) {
+  const cars = props.cars;
+  return (
+    <>
+      <h1>Garage</h1>
+      {cars.length > 0 &&
+        <h2>
+          You have {cars.length} cars in your garage.
+        </h2>
+      }
+    </>
+  );
+}
+
+const cars = ['Ford', 'BMW', 'Audi'];
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Garage cars={cars} />);
+```
+
+## Particularidades
+
+Se debe usar `className` en lugar de `class` porque `class` es una palabra clave reservada en JS
+# Cambiar de CDN a la instalación
 
 Supongo que para evitar que tu pág caiga si cae el CDN, es recomendable instalar React en tu proyecto. 
 
@@ -181,6 +265,52 @@ const root = createRoot(document.getElementById('root'));
 root.render(<h1>Hello, world</h1>);
 ```
 
+# Qué es exactamente un componente?
+
+Son los bloques en los que se forma la app React.
+
+Son funciones JavaScript pero que trabajan de forma aislada y devuelven HTML
+
+Hay dos tipos: `de clase` y `de función`. Parece que los de clase están un poco obsoletos, así que vamos solo con los de función. Más info aquí https://www.w3schools.com/react/react_class.asp
+
+## Componente de Función
+
+Tienen este formato
+```jsx
+function Car() {
+  return <h2>Hi, I am a Car!</h2>;
+}
+```
+
+Se renderizan así
+```jsx
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Car />);
+```
+
+Los componentes se pueden pasar como [[#prop]]s (abreviado de propiedades)
+
+Para pasar el componente a un archivo separado, el nombre de archivo debe estar con mayúscula y exportar la función
+
+```jsx
+function Car() {
+  return <h2>Hi, I am a Car!</h2>;
+}
+
+export default Car;
+```
+
+Entonces deberás importar el componente allá donde lo uses
+
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Car from './Car.js';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Car />);
+```
+
 # Cargar y usar recursos
 
 Se hace también con `import`
@@ -210,13 +340,24 @@ Se diferencia prop de estado.
 
 ## prop
 
-Este es un dato que se pasa a los hijos
+Los componentes se pueden pasar como `props` (abreviado de propiedades)
+
+Este es un dato que se pasa a los hijos, son como argumentos de función y los envías a los componentes como atributos
+
+```jsx
+function Square(props) {
+  return <button className="square">{props.value}</button>;
+}
+```
+
+El valor `value` se podría haber obtenido (tal y como vimos en [[Informática/Lenguajes de programación/WebDev/JS JavaScript/index#Destructurar (Destructuring)|Destructurar de ES6]]) directamente así:
 
 ```jsx
 function Square({ value }) {
   return <button className="square">{value}</button>;
 }
 ```
+
 
 ```jsx
 export default function Board() {
@@ -233,7 +374,27 @@ export default function Board() {
 }
 ```
 
+Si quieres pasar un valor que no sea estático, puedes hacerlo con llaves (pasamos `carName` en lugar de "Ford"), ampliable a objeto: `const carInfo = { name: "Ford", model: "Mustang" };` y luego pasaríasmos `{carInfo}`
 
+
+```jsx
+function Car(props) {
+  return <h2>I am a { props.brand }!</h2>;
+}
+
+function Garage() {
+  const carName = "Ford";
+  return (
+    <>
+      <h1>Who lives in my garage?</h1>
+      <Car brand={ carName } />
+    </>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Garage />);
+```
 ## Guardar estado (useState)
 
 Se gestiona mediante el estado, usando el `hook` `useState`
@@ -259,8 +420,64 @@ function Square() {
   );
 ```
 
-# Interactividad
+# Bucles
 
+El método favorito es map
+```jsx
+function Car(props) {
+  return <li>I am a { props.brand }</li>;
+}
+
+function Garage() {
+  const cars = ['Ford', 'BMW', 'Audi'];
+  return (
+    <>
+      <h1>Who lives in my garage?</h1>
+      <ul>
+        {cars.map((car) => <Car brand={car} />)}
+      </ul>
+    </>
+  );
+}
+```
+
+## Claves
+
+Son la forma que tienen React de realizar un seguimiento de los elementos, así actualizar exclusivamente aquellos que cambien o se eliminen
+
+Las claves deben ser únicas entre sus hermanos pero pueden se pueden repetir de forma global (como la `i` de un `for`)
+
+Por lo visto, lo mejor sería utilizar ID únicos siempre que puedas, pero como último recurso, se puede utilizar el índice del array
+
+```jsx
+function Garage() {
+  const cars = [
+    {id: 1, brand: 'Ford'},
+    {id: 2, brand: 'BMW'},
+    {id: 3, brand: 'Audi'}
+  ];
+  return (
+    <>
+      <h1>Who lives in my garage?</h1>
+      <ul>
+        {cars.map((car) => <Car key={car.id} brand={car.brand} />)}
+      </ul>
+    </>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Garage />);
+```
+
+> [!Info] Cómo sé si lo necesito?
+> 
+> Si lo necesitas, es decir, en el contexto que estás es irremediable usarlo, React te mandará errores
+# Interactividad / Eventos
+
+onClick es con cammelCase al contrario que en js (onclick)
+
+Si pasas el método, se hace con llaves y sin paréntesis
 ```jsx
 function Square({ value }) {
   function handleClick() {
@@ -278,12 +495,50 @@ function Square({ value }) {
 ```
 
 > [!warning] Cuidado
-> La función que pasas a onClick debe ser sin paréntesis, ya que por temas de actualización de los componentes , probablemente acabes causando un **bucle infinito**.
-> Para pasar argumentos, deberás usar la forma `onClick={() => handleClick("mi argumento")}{:jsx}`
+> La función que pasas a onClick debe ser ==sin paréntesis==, ya que por temas de actualización de los componentes , probablemente acabes causando un **bucle infinito**.
+> 
+> 
 
+Para pasar argumentos, deberás usar la forma `onClick={() => handleClick("mi argumento")}{:jsx}`
 
+```jsx
+function Football() {
+  const shoot = (a) => {
+    alert(a);
+  }
 
-# Pasar datos desde dentro del componente al padre
+  return (
+    <button onClick={() => shoot("Goal!")}>Take the shot!</button>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Football />);
+```
+
+### Objeto event
+
+lo conseguimos pasándolo por el método Arrow
+```jsx
+function Football() {
+  const shoot = (a, b) => {
+    alert(b.type);
+    /*
+    'b' represents the React event that triggered the function,
+    in this case the 'click' event
+    */
+  }
+
+  return (
+    <button onClick={(event) => shoot("Goal!", event)}>Take the shot!</button>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Football />);
+```
+# Casos concretos
+## Pasar datos desde dentro del componente al padre
 
 `Compo`, padre de `MiComponente`
 ```jsx
