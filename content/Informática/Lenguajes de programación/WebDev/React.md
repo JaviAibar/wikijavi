@@ -516,7 +516,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Football />);
 ```
 
-### Objeto event
+## Objeto event
 
 lo conseguimos pasándolo por el método Arrow
 ```jsx
@@ -537,6 +537,149 @@ function Football() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Football />);
 ```
+
+## Formularios (Forms)
+
+Los datos se manejan con [[#Guardar estado (useState)|useState]] 
+
+### inputs y submit
+
+```tsx
+import {FormEvent, useState} from 'react';  
+import ReactDOM from 'react-dom/client';  
+  
+export default function MyForm() {  
+    const [name, setName] = useState("");  
+  
+    const handleSubmit = (event:FormEvent) => {  
+        event.preventDefault();  
+        alert(`The name you entered was: ${name}`)  
+    }  
+    return (  
+        <form onSubmit={(event) => handleSubmit(event)}>  
+            <label>Enter your name:  
+                <input  
+                    type="text"  
+                    value={name}  
+                    onChange={(e) => setName(e.target.value)}  
+                />  
+            </label>            
+            <input type="submit" />  
+        </form>    )  
+}
+``` 
+
+>[!Warning] Cambios en TypeScript
+>Debido a que este ejemplo está en TypeScript, se han tenido que añadir el evento FormEvent
+
+Para añadir múltiples campos, se usa el atributo name
+
+```jsx
+function MyForm() {
+  const [inputs, setInputs] = useState({});
+
+  const handleChange = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setInputs(values => ({...values, [name]: value}))
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(inputs);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>Enter your name:
+      <input 
+        type="text" 
+        name="username" 
+        value={inputs.username || ""} 
+        onChange={handleChange}
+      />
+      </label>
+      <label>Enter your age:
+        <input 
+          type="number" 
+          name="age" 
+          value={inputs.age || ""} 
+          onChange={handleChange}
+        />
+        </label>
+        <input type="submit" />
+    </form>
+  )
+}
+```
+
+> [!info] handleChange
+> Los atributos name y value de cada input se obtienen de `event.target`
+> Luego esos valores, se utilizan para **añadir (o actualizar)** un campo en el `useState` mediante `setInputs`. Lo que creo que está pasando exactamente es que los 
+> valores de `values` se mantienen gracias a `...values`, y poniendo `[name]: value`, se crea o actualiza el que corresponda con `name` dentro de `inputs`
+
+>[!warning] cambios para TypeScript
+> para acceder al name y value, event tiene que ser de tipo `ChangeEvent<HTMLInputElement>` y están en `event.currentTarget.name` y `event.currentTarget.value`
+
+## Textarea
+
+```jsx
+<textarea>
+  Content of the textarea.
+</textarea>
+```
+
+```jsx
+<form>
+      <textarea value={textarea} onChange={handleChange} />
+    </form>
+```
+
+## Select
+
+```html
+<select>
+  <option value="Ford">Ford</option>
+  <option value="Volvo" selected>Volvo</option>
+  <option value="Fiat">Fiat</option>
+</select>
+```
+
+```jsx
+ const [myCar, setMyCar] = useState("Volvo");
+
+  const handleChange = (event) => {
+    setMyCar(event.target.value)
+  }
+
+  return (
+    <form>
+      <select value={myCar} onChange={handleChange}>
+        <option value="Ford">Ford</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Fiat">Fiat</option>
+      </select>
+    </form>
+  )
+```
+
+# Router
+
+Por defecto no está instalado
+
+```shell
+npm i -D react-router-dom
+``` 
+
+### Estructura de carpetas
+
+`src\pages\`:
+
+- `Layout.js`
+- `Home.js`
+- `Blogs.js`
+- `Contact.js`
+- `NoPage.js`
 # Casos concretos
 ## Pasar datos desde dentro del componente al padre
 
