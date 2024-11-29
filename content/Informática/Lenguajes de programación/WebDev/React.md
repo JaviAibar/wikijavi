@@ -726,7 +726,7 @@ const MiComponente = ({ onEjecutar }) => {
 export default MiComponente;
 ```
 
-# Estructura en Glitch
+# Estructura en [[Glitch]]
 
 La mayoría de elementos estarán en la carpeta `src/`
 

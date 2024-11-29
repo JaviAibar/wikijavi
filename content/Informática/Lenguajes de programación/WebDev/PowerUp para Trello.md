@@ -1,4 +1,4 @@
-Esta guía se basa [en mi PowerUp](https://glitch.com/edit/#!/lists-to-text-trello-powerup). Consiste en una sencilla aplicación que convierte el texto de las tarjetas de la lista de trello que le pidas, en el tableto en el que estés. En esta guía voy a desgranar en detalle los pasos que hay que dar y los problemas que me han ido surgiendo
+Esta guía se basa [en mi PowerUp](https://glitch.com/edit/#!/lists-to-text-trello-powerup). Consiste en una sencilla aplicación  mediante [[Glitch]] que convierte el texto de las tarjetas de la lista de trello que le pidas, en el tableto en el que estés. En esta guía voy a desgranar en detalle los pasos que hay que dar y los problemas que me han ido surgiendo
 
 Si tienes problemas una vez instalada debes aceptar cookies de terceros y popups
 

@@ -247,63 +247,7 @@ const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
 
 ## Modulos (Importar librerías)
 
-Existen 3 formas de importar librerías:
-
-- esm (ES6) (works with import syntax — recommended)
-- umd (works with `<script>` tags or RequireJS)
-- cjs (works with require() syntax)
-
-Puedes exportar una función o variable de cualquier archivo
-
-Hay dos tipos de exportado: Por nombre (`named`) o por defecto (`default`)
-
-### Exportar
-#### Por nombre
-
-Opción 1 (en línea)
-```jsx
-export const name = "Jesse"
-export const age = 40
-```
-
-Opción 2 (de golpe)
-```jsx
-const name = "Jesse"
-const age = 40
-
-export { name, age }
-```
-
-#### Por defecto
-
-Solo se puede uno por archivo
-```jsx
-const message = () => {
-  const name = "Jesse";
-  const age = 40;
-  return name + ' is ' + age + 'years old.';
-};
-
-export default message;
-```
-
-### Importar
-
-Dependiendo de si son por defecto o nombre se hará de una forma
-
-#### Por nombre
-
-Debe ser con llaves
-```jsx
-import { name, age } from "./person.js";
-```
-
-#### Por defecto
-
-Sin llaves
-```jsx
-import message from "./message.js";
-```
+Movido [[Modulos|a su propia nota]]
 ## Operador ternario
 
 Funciona igual que en la mayoría de lenguajes
@@ -313,26 +257,7 @@ authenticated ? renderApp() : renderLogin();
 
 # Tengo un problema
 
-## Uncaught ReferenceError: require is not defined
-
-Creo que hay varios posibles escenarios por los que se puede dar este error.
-Pero el que conozco: 
-
-Puede ser que sea un problema importando desde el cliente. Vamos a poner por caso que intentas importar Handlebars:
-
-lo que puedes hacer es añadir un script al html que te genera el servidor
-
-```html
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
-     <script src="/addEvent.js"></script
-```
-
-Ese archivo `addEvent.js` será el usado por el cliente. Y ahí podemos acceder al objeto ya importado mediante windows de la siguiente manera:
-
-```js
-const Handlebars = window.Handlebars;
-```
-
+Esta sección se ha movido [[Tengo un problema en JS|a su propia nota]]
 
 # Bibliografía
 
