@@ -2,7 +2,7 @@ stages:
   - build
   - deploy
 
-image: node:18
+image: node:22
 cache:
   key: $CI_COMMIT_REF_SLUG
   paths:
