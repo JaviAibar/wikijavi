@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Informática/Lenguajes de programación/WebDev/NodeJS.md",
+                "file": "Informática/dummy page.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NodeJS"
+              "title": "dummy page"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Informática/Lenguajes de programación/WebDev/NodeJS.md"
+                "file": "Informática/dummy page.md"
               },
               "icon": "lucide-list",
-              "title": "Esquema de NodeJS"
+              "title": "Esquema de dummy page"
             }
           }
         ],
@@ -162,8 +162,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f081ab8d861b5054",
+  "active": "ac05f40de0584a54",
   "lastOpenFiles": [
+    "Informática/Lenguajes de programación/WebDev/Fastify.md",
+    "Informática/Lenguajes de programación/WebDev/NodeJS.md",
     "Informática/Lenguajes de programación/Patrones de diseño/patrón de diseño SOLID design pattern.md",
     "Informática/Lenguajes de programación/WebDev/Handlebars.md",
     "Informática/Lenguajes de programación/SQL.md",
@@ -171,8 +173,6 @@
     "Informática/Lenguajes de programación/WebDev/JS JavaScript/SQLite en JS.md",
     "Informática/Lenguajes de programación/Optimizaciones generales/index.md.md",
     "Informática/Lenguajes de programación/WebDev/Sin título.md",
-    "Informática/Lenguajes de programación/WebDev/Fastify.md",
-    "Informática/Lenguajes de programación/WebDev/NodeJS.md",
     "Informática/Lenguajes de programación/WebDev/JQuery.md",
     "Informática/Lenguajes de programación/WebDev/JS JavaScript/Tengo un problema en JS.md",
     "Informática/Lenguajes de programación/WebDev/JS JavaScript/Modulos.md",

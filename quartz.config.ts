@@ -8,7 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "WikiJavi!",
+    pageTitle: "🪴 Quartz 4.0",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -18,6 +19,7 @@ const config: QuartzConfig = {
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -61,20 +63,11 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
-          dark: "dark-plus",
-        },
-        keepBackground: false,
-      }),
-      /*
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
           dark: "github-dark",
         },
         keepBackground: false,
       }),
-      */
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, highlight: true }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),

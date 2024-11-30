@@ -34,10 +34,14 @@ fastify.post("/", function (request, reply) {
 
 > [!note] Otras opciones
 > Además de get y post tenemos put y delete. Creo que todas funcionan igual
-
-
-> [!note] Request y reply
+> 
 > Para ver como gestionar y responder a la petición se usan request y reply respectivamente
+
+> [!warning] Return
+> Debes hacer return al final de si quieres que carge la web con view
+> ```js
+> return reply.view("index.html");
+> ```
 
 ### Request
 
@@ -50,6 +54,7 @@ return reply.view("/src/pages/index.hbs", params);
 
 > [!warning] View es dependencia
 > Para poder usar view debes tener instalado `@fastify/view`
+
 
 ## Vistas
 
@@ -108,6 +113,15 @@ params = {
 return reply.view("/src/pages/index.hbs", params);
 ``` 
 
+# Tengo un problema
+
+## Al hacer reply.view("index.html") me sale todo en blanco pero ningún error
+
+Debes hacer `return`
+
+```js
+return reply.view("index.html")
+```
 # Bibliografía
 
 https://glitch.com/edit/#!/ash-stump-potato

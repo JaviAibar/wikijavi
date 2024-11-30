@@ -11,26 +11,16 @@ interface Options {
   keepBackground?: boolean
 }
 
-/*const defaultOptions: Options = {
+const defaultOptions: Options = {
   theme: {
     light: "github-light",
     dark: "github-dark",
   },
   keepBackground: false,
-}*/
-
-const defaultOptions: Options = {
-  theme: {
-    light: "github-light",
-    dark: "dark-plus",
-  },
-  keepBackground: false,
 }
 
-export const SyntaxHighlighting: QuartzTransformerPlugin<Options> = (
-  userOpts?: Partial<Options>,
-) => {
-  const opts: Partial<CodeOptions> = { ...defaultOptions, ...userOpts }
+export const SyntaxHighlighting: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
+  const opts: CodeOptions = { ...defaultOptions, ...userOpts }
 
   return {
     name: "SyntaxHighlighting",

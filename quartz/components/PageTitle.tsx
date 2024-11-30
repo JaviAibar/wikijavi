@@ -7,14 +7,15 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
   return (
-    <h1 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}><img src="https://javiaib.gitlab.io/wikijavi/static/icon.png" style="height: 2em;  vertical-align: middle;" />{title}</a>
-    </h1>
+    <h2 class={classNames(displayClass, "page-title")}>
+      <a href={baseDir}>{title}</a>
+    </h2>
   )
 }
 
 PageTitle.css = `
 .page-title {
+  font-size: 1.75rem;
   margin: 0;
 }
 `
