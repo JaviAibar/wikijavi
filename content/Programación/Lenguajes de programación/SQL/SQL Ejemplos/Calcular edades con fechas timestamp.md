@@ -1,0 +1,1 @@
+[SELECT](http://localhost/phpmyadmin/url.php?url=http://dev.mysql.com/doc/refman/5.5/en/select.html) TIMESTAMPDIFF( [YEAR](http://localhost/phpmyadmin/url.php?url=http://dev.mysql.com/doc/refman/5.5/en/date-and-time-types.html), '1994-02-20', CURDATE( ) ) AS age
