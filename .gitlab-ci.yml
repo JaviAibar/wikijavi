@@ -28,5 +28,8 @@ pages:
   artifacts:
     paths:
       - public
+    exclude:
+      - node_modules/  # Excluir dependencias innecesarias
+      - tmp/          # Excluir archivos temporales
   only:
     - main
