@@ -1,0 +1,1 @@
+[https://www.seagate.com/de/de/support/kb/windows-will-not-allow-me-to-safely-remove-my-drive-it-keeps-reporting-the-drive-is-busy-or-in-use-205071en/](https://www.seagate.com/de/de/support/kb/windows-will-not-allow-me-to-safely-remove-my-drive-it-keeps-reporting-the-drive-is-busy-or-in-use-205071en/)

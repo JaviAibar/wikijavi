@@ -3,21 +3,26 @@
     "cx": {
       "value": "```xml",
       "isEnabled": true,
-      "position": 1
+      "position": 2
     },
     "cs": {
       "value": "```cs",
       "isEnabled": true,
-      "position": 3,
+      "position": 4,
       "isCaseSensitive": false
     },
     "cf": {
       "value": "```",
       "isEnabled": true,
-      "position": 2
+      "position": 3
     },
     "cjs": {
       "value": "```js",
+      "isEnabled": true,
+      "position": 1
+    },
+    "warning": {
+      "value": ">[!warning]",
       "isEnabled": true,
       "position": 0
     }

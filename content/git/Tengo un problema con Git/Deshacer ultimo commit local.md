@@ -1,0 +1,1 @@
+Simplemente ejecutar `git reset HEAD~`

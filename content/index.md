@@ -2,6 +2,41 @@
 title: Bienvenido a WikiJavi, una web desarrollada con Obsidian y publicada con Quartz
 description: "Warning: This Wiki doesn't mean to be complete, exact, organized, perfectly explained nor fulfilled. Its only purpose is to serve as a place to log every piece of information that the author learns and finds interesting to look up in the future. Feel free though to nose around :)"
 ---
+# Git
+[[0 - Git Index]]
+
+# Lenguajes de programación
+[[CSharp index]]
+
+## Webdev
+[[WebDev index]]
+
+## WPF
+[[WPF index]]
+## Prism
+[[Prism index]]
+
+# Programación
+[[Algoritmica index]]
+[[Optimizaciones generales Núcleo]]
+
+# Programas
+[[Programas index]]
+
+# Unity
+[[Unity index]]
+
+# Obsidian
+[[Obsidian index]]
+
+
+# Patrones de diseño
+[[Patrones de diseño index]]
+
+# Paginas a recordar
+[[Páginas a recordar]]
+
+
 
 | ![[zz Media/Pastedimage20240731182507.png\|150]]   | ![[zz Media/Pasted image 20240731183250.png\|150]] | [![[zz Media/Pasted image 20240731183320.png\|150]]](<Unity/Ejemplos-de-Unity/Ejemplo%20corrutina.md de Unity/Ejemplo corrutina>) | ![[zz Media/Pasted image 20240802120933.png\|150]] |
 | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |

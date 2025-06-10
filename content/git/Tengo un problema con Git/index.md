@@ -1,0 +1,8 @@
+[[Deshacer los cambios]]
+[[Deshacer ultimo commit local]]
+[[git filter-branch filter-repo - Borrar archivo historia git (git filter-branch)]]
+[[Mover cambios a otra rama]]
+[[Resolver conflictos]]
+[[Revertir cambios]]
+[[Tener dos cuentas de Github]]
+[[Transferir commits de una cuenta Github]]

@@ -1,0 +1,1 @@
+# CSM o Compatibility Support Module: un aliado para instalaciones antiguas

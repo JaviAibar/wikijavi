@@ -1,0 +1,1 @@
+Sonido > Grabar > Microfono (botón derecho) > VoizExp > Cancelación de eco acústico

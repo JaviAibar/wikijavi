@@ -1,0 +1,1 @@
+Se trata del directorio, subdirectorio y archivos del sistema de archivos que están asociados a un repositorio
