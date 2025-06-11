@@ -13,24 +13,21 @@ build:
   script:
     - npm ci
     - echo "Building the site..."
-    - npx quartz build 
+    - npx quartz build  # Genera los archivos en `public/`
   artifacts:
     paths:
       - public
+    expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
 
 pages:
   stage: deploy
+  dependencies:
+    - build  # Asegura que el job `build` se complete primero
   script:
-    - mkdir .public
-    #  - Get-ChildItem -Path . -Exclude .public | ForEach-Object { Copy-Item $_.FullName -Destination .public -Recurse -Force }
-    - cp -r * .public # version Linux
-    - mv .public public
-    - rm .public # This is because artifacts.zip is too big for pages, could be a bad decision to remove this folder
+    - mv public .public  # Renombra la carpeta (más eficiente que copiar)
+    - mv .public public  # GitLab Pages espera los archivos en `public/`
   artifacts:
     paths:
       - public
-    exclude:
-      - node_modules/  # Excluir dependencias innecesarias
-      - tmp/          # Excluir archivos temporales
   only:
     - main
