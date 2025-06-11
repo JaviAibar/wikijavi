@@ -25,6 +25,7 @@ pages:
     #  - Get-ChildItem -Path . -Exclude .public | ForEach-Object { Copy-Item $_.FullName -Destination .public -Recurse -Force }
     - cp -r * .public # version Linux
     - mv .public public
+    - rm .public # This is because artifacts.zip is too big for pages, could be a bad decision to remove this folder
   artifacts:
     paths:
       - public
