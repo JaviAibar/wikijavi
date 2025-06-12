@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unity/0- Tengo un problema/URP azulado.md",
+                "file": "Unity/0- Tengo un problema/Al cambiar a simulación de físicas en una rampa, se frena.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "URP azulado"
+              "title": "Al cambiar a simulación de físicas en una rampa, se frena"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 337.5
   },
   "right": {
     "id": "6d5cf21ff42752e4",
@@ -166,8 +166,26 @@
   },
   "active": "1caf886f05ee4938",
   "lastOpenFiles": [
-    "Unity/0- Tengo un problema/Hacer que GO no se elimine entre escenas (Dont destroy on load).md",
+    "zz Media Unity/Pasted image 20250612182233.png",
+    "Unity/0- Tengo un problema/Al cambiar a simulación de físicas en una rampa, se frena.md",
+    "Unity/0- Tengo un problema/La cámara vibra cuando cae por una pendiente.md",
+    "Unity/0- Tengo un problema/El Scrollview no funciona.md",
+    "zz Media Unity/Pasted image 20250612182213.png",
+    "zz Media Unity/Pasted image 20250612182204.png",
+    "zz Media Unity/Pasted image 20250612182019.png",
+    "Unity/0- Tengo un problema/Win32Exception - El sistema no puede encontrar el archivo especificado.md",
+    "Unity/0- Tengo un problema/He instalado el modulo WebGL o ILPCC y ahora no puedo hacer build ni ejecutar acceso denegado.md",
+    "Unity/0- Tengo un problema/Problemas con Git + Tortoise.md",
+    "zz Media Unity/Pasted image 20250612181514.png",
+    "zz Media Unity/Pasted image 20250612181511.png",
+    "zz Media Unity/Pasted image 20250612181507.png",
+    "zz Media Unity/Pasted image 20250612181446.png",
+    "zz Media Unity/Pasted image 20250612181436.png",
+    "zz Media Unity/Pasted image 20250612181422.png",
+    "Unity/0- Tengo un problema/Character Animation - Orígenes diferentes.md",
+    "Unity/0- Tengo un problema/Las animaciones no me mantienen la posición, son absolutas en vez de relativas, reinician la posición.md",
     "Unity/0- Tengo un problema/URP azulado.md",
+    "Unity/0- Tengo un problema/Hacer que GO no se elimine entre escenas (Dont destroy on load).md",
     "Unity/0- Tengo un problema/No me aparece el Sprite atlas.md",
     "Unity/Trucos de Unity/Materiales también prefab.md",
     "Unity/Trucos de Unity/Atajos Shortcuts.md",
@@ -175,16 +193,7 @@
     "Unity/Trucos de Unity/Que se vean los eventos en el inspector.md",
     "Unity/Herramientas/Sin nombre",
     "Unity/Trucos de Unity/Compilar no pare la ejecución.md",
-    "Pasted image 20250612174902.png",
     "Unity/Trucos de Unity/GameObjects origen (0, 0, 0) por defecto.md",
-    "zz Media/Pasted image 20250611180550.png",
-    "zz Media/Pasted image 20250611182613.png",
-    "zz Media Unity/Pasted image 20250612174724.png",
-    "zz Media/Pasted image 20250611182903.png",
-    "zz Media/Pasted image 20250611182854.png",
-    "zz Media/Pasted image 20250611182825.png",
-    "zz Media/Pasted image 20250611182742.png",
-    "zz Media/Pasted image 20250611182733.png",
     "zz Media Unity",
     "Unity/Burocracia/Qué pasa con Unity y su precio a partir de 2024.md",
     "Unity/Unity index.md",
@@ -201,16 +210,6 @@
     "Programación/Lenguajes de programación/WPF/WPF Datos y archivos.md",
     "Programación/Lenguajes de programación/Prism (WPF)/Prism ViewModelLocator.md",
     "Programación/Lenguajes de programación/Prism (WPF)/Prism Modulos.md",
-    "Programación/Lenguajes de programación/WebDev/CSS/Conceptos/Selectores.md",
-    "zz Media/Pasted image 20250610154016 (Grande).png",
-    "Programación/Lenguajes de programación/WPF/WPF Ejemplo ModernUI.md",
-    "Programación/1- Teoria Programación/Optimizaciones generales/Optimizaciones generales Núcleo.md",
-    "index.md",
-    "Programación/1- Teoria Programación/Patrones de diseño/patrón de diseño SOLID design pattern.md",
-    "Programación/Lenguajes de programación/Python/Google Colab.md",
-    "Programación/Lenguajes de programación/Python/0- Python index.md",
-    "Programación/Lenguajes de programación/Python/Tratamiento de bits.md",
-    "Programación/Lenguajes de programación/WebDev/CSS/Conceptos/Herencia.md",
     "UMLNotationSummary.pdf",
     "Sin título.canvas",
     "Sin título 1.canvas"

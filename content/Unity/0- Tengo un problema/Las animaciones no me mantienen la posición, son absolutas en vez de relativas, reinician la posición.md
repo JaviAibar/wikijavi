@@ -1,0 +1,1 @@
+   Para que las posiciones sean relativas, es decir, cada animación toma como 0 0 0 la posición en la que quedó la última animación, tan solo hay que ir al componente Animator y activar Apply Root Motion
