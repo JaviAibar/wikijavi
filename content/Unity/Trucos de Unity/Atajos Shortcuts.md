@@ -1,0 +1,1 @@
+Ctrl + K --> Permite buscar en toda la jerarquía | esto también te permite buscar aquello que está roto (missing script p.e.)

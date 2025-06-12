@@ -1,0 +1,1 @@
+A partir de la versión 2022 de Unity, podemos crear materiales de la misma forma que creamos prefabs, con herencia incluída

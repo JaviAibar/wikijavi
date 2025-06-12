@@ -1,0 +1,1 @@
+Lo más seguro es que debas importar el paquete 2D Sprite
