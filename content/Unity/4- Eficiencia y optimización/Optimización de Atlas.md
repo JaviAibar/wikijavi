@@ -1,0 +1,1 @@
+Es conveniente que las dimensiones del atlas (conjunto de sprites en una misma imagen) sea una potencia de 2, por ejemplo 1024 * 512

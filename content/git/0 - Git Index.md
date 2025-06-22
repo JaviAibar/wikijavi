@@ -8,7 +8,7 @@
 [[7 - Tratamiento de ramas]]
 [[8 - Mostrar el grafo de commits|8 - git log - Mostrar el grafo de commits]]
 [[9 - git merge|9 - git merge - Combinación de commits / ramas]]
-## [[git/Tengo un problema con Git/index|Tengo un problema con Git]]
+## [[Git/Tengo un problema con Git/index|Tengo un problema con Git]]
 [[Deshacer los cambios]]
 [[Deshacer ultimo commit local|git reset - Deshacer último commit local]]
 [[git filter-branch filter-repo - Borrar archivo historia git (git filter-branch)]]

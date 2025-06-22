@@ -4,21 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "0464ebf581437216",
+        "id": "9d307a02a7ca26e4",
         "type": "tabs",
         "children": [
           {
-            "id": "1caf886f05ee4938",
+            "id": "92326928b17448ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unity/0- Tengo un problema/Al cambiar a simulación de físicas en una rampa, se frena.md",
+                "file": "Unity/2- Técnicas/Zenject/Unity Zenject GUÍA RÁPIDA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Unity Zenject GUÍA RÁPIDA"
+            }
+          },
+          {
+            "id": "f10a33caade789f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unity/2- Técnicas/Zenject/Unity Zenject DETALLADO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Al cambiar a simulación de físicas en una rampa, se frena"
+              "title": "Unity Zenject DETALLADO"
             }
           }
         ]
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Señal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +89,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,53 +180,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1caf886f05ee4938",
+  "active": "1c068e988ea94b47",
   "lastOpenFiles": [
-    "zz Media Unity/Pasted image 20250612182233.png",
-    "Unity/0- Tengo un problema/Al cambiar a simulación de físicas en una rampa, se frena.md",
-    "Unity/0- Tengo un problema/La cámara vibra cuando cae por una pendiente.md",
-    "Unity/0- Tengo un problema/El Scrollview no funciona.md",
-    "zz Media Unity/Pasted image 20250612182213.png",
-    "zz Media Unity/Pasted image 20250612182204.png",
-    "zz Media Unity/Pasted image 20250612182019.png",
-    "Unity/0- Tengo un problema/Win32Exception - El sistema no puede encontrar el archivo especificado.md",
-    "Unity/0- Tengo un problema/He instalado el modulo WebGL o ILPCC y ahora no puedo hacer build ni ejecutar acceso denegado.md",
-    "Unity/0- Tengo un problema/Problemas con Git + Tortoise.md",
-    "zz Media Unity/Pasted image 20250612181514.png",
-    "zz Media Unity/Pasted image 20250612181511.png",
-    "zz Media Unity/Pasted image 20250612181507.png",
-    "zz Media Unity/Pasted image 20250612181446.png",
-    "zz Media Unity/Pasted image 20250612181436.png",
-    "zz Media Unity/Pasted image 20250612181422.png",
-    "Unity/0- Tengo un problema/Character Animation - Orígenes diferentes.md",
-    "Unity/0- Tengo un problema/Las animaciones no me mantienen la posición, son absolutas en vez de relativas, reinician la posición.md",
-    "Unity/0- Tengo un problema/URP azulado.md",
-    "Unity/0- Tengo un problema/Hacer que GO no se elimine entre escenas (Dont destroy on load).md",
-    "Unity/0- Tengo un problema/No me aparece el Sprite atlas.md",
-    "Unity/Trucos de Unity/Materiales también prefab.md",
-    "Unity/Trucos de Unity/Atajos Shortcuts.md",
-    "Unity/Herramientas/Herramientas toolsSin título.md",
-    "Unity/Trucos de Unity/Que se vean los eventos en el inspector.md",
-    "Unity/Herramientas/Sin nombre",
-    "Unity/Trucos de Unity/Compilar no pare la ejecución.md",
-    "Unity/Trucos de Unity/GameObjects origen (0, 0, 0) por defecto.md",
-    "zz Media Unity",
-    "Unity/Burocracia/Qué pasa con Unity y su precio a partir de 2024.md",
+    "Unity/2- Técnicas/Zenject/Unity Zenject DETALLADO.md",
+    "Unity/2- Técnicas/Zenject/Unity Zenject GUÍA RÁPIDA.md",
+    "Pasted image 20250622201325.png",
+    "Pasted image 20250622201314.png",
+    "Pasted image 20250622201242.png",
+    "Pasted image 20250622201226.png",
+    "Pasted image 20250622201125.png",
+    "Pasted image 20250622201023.png",
+    "Pasted image 20250622201019.png",
+    "Pasted image 20250622201007.png",
+    "Pasted image 20250622200010.png",
+    "Pasted image 20250622200009.png",
+    "Unity/3- Programación/Testing - Pruebas unitarias.md",
+    "Unity/2- Técnicas/Zenject/Análisis Zenject-Hero.md",
+    "Unity/Lo básico.md",
+    "Unity/Escenas/Escenas.md",
+    "Unity/12- Ejemplos de Unity/Ejemplo corrutina.md",
+    "Obsidian/Cheatsheet Obsidian + Quartz.md",
     "Unity/Unity index.md",
-    "Unity/Burocracia",
-    "Programación/Sin nombre",
-    "Unity/Configuración",
-    "Unity/Assets",
-    "Unity/Sin título.md",
-    "Unity/Ejemplos de Unity/Ejemplo corrutina.md",
-    "Unity/Ejemplos-de-Unity/Ejemplo corrutina.md de Unity/Ejemplo corrutina.md",
-    "Unity/0- Tengo un problema",
-    "Unity/Trucos de Unity",
-    "Unity/Herramientas",
-    "Programación/Lenguajes de programación/WPF/WPF Datos y archivos.md",
-    "Programación/Lenguajes de programación/Prism (WPF)/Prism ViewModelLocator.md",
-    "Programación/Lenguajes de programación/Prism (WPF)/Prism Modulos.md",
-    "UMLNotationSummary.pdf",
+    "Unity/Unity Zenject GUÍA RÁPIDA.md",
+    "Programación/1- Teoria Programación/Patrones de diseño/(DI) Dependency Inyection.md",
+    "Unity/2- Técnicas/Zenject",
+    "Unity/2- Técnicas/Mostrar cam de un dispositivo.md",
+    "Unity/9- XR Unity/Introducción a la realidad virtual Virtual Reality VR.md",
+    "Unity/9- XR Unity/Introducción a la realidad aumentada.md",
+    "Unity/3- Programación/Cómo funciona Time.deltaTime.md",
+    "Unity/9- XR Unity",
+    "Unity/2- Técnicas/Orden de dibujado.md",
+    "Unity/3- Programación/Como funcionan las corrutinas.md",
+    "Unity/2- Técnicas/Luces 2D.md",
+    "Unity/2- Técnicas/Malla paramétrica en Blender.md",
+    "Unity/2- Técnicas/Cómo funcionan los Quaternion.md",
+    "Unity/4- Eficiencia y optimización/4.1 - Buenas prácticas/Assembly.md",
+    "Unity/10- Otros/Zenject",
+    "Unity/1- Conceptos generales/Qué significa exactamente serializar.md",
+    "Git/Gitlab + TortoiseGit.md",
+    "Git/Gitlab.md",
+    "Unity/8- Mates/Operación Dot (producto escalar).md",
+    "Unity/8- Mates",
+    "Unity/4- Eficiencia y optimización/4.1 - Buenas prácticas",
+    "Unity/6- GUI",
+    "Unity/7- Particulas/Problemas con particulas Unity",
+    "Unity/7- Particulas",
+    "Unity/11- Miscelánea",
+    "Unity/10- Otros",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]

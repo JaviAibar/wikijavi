@@ -1,0 +1,1 @@
+Es lo normal, las partículas tienden a tener forma cuadrada (o eso creo). Pero se puede cambiar con el `Start size 3D`

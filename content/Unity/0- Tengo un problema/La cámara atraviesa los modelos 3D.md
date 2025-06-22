@@ -1,0 +1,1 @@
+Es tan sencillo como poner el `Near` de `Clipping` planes de la `Camara` a 0.01

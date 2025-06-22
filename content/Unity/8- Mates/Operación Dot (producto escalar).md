@@ -1,0 +1,1 @@
+Aplica el [producto escalar](https://sites.google.com/view/giijavi/%C3%A1lgebra/tipos-de-multiplicacion-de-matrices) entre dos vectores

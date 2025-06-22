@@ -1,0 +1,1 @@
+He descargado un proyecto y no me genera el archivo de solución (.sln) (.csproj)

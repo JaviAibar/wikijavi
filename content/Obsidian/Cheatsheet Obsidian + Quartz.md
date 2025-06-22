@@ -1,3 +1,16 @@
+# Usar colores
+
+en vez de
+
+<code style="color: #ff5454">
+rb.AddForce(direction * Time.deltaTime);
+</code>
+
+usar
+
+<code style="color: #92ff54">
+rb.velocity = characterController.velocity;
+</code>
 ## Enlaces
 
 Tenemos los wikilinks que sirven para referenciar enlaces dentro de la propia wiki, estos se hacen con doble corchete  
@@ -24,7 +37,7 @@ Imágenes con enlace
 This is a linked image[![[yourimagename.png]]](<PATH/TO/THE NOTE>)
 ```
 
-[![[zz Media/Pasted image 20240731183320.png|100]]](<Unity/Ejemplos de Unity/Ejemplo corrutina>)
+[![[zz Media/Pasted image 20240731183320.png|100]]](<Ejemplo corrutina.md>)
 
 
 Tanto la imagen como el enlace pueden ser online

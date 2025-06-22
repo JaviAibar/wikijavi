@@ -8,7 +8,7 @@ Este patrón de diseño nos permite que las clases sean independientes de sus de
 
 
 Para un ejemplo en Prism (WPF) [[Prism Dependencias]]
-Para un ejemplo en Zenject (Unity) [[Unity Zenject GUÍA RÁPIDA]]
+Para un ejemplo en Zenject (Unity) [[Unity/2- Técnicas/Zenject/Unity Zenject GUÍA RÁPIDA|Unity Zenject GUÍA RÁPIDA]]
 
 # Definiciones
 
