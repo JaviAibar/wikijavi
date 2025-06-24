@@ -3,26 +3,41 @@
     "cx": {
       "value": "```xml",
       "isEnabled": true,
-      "position": 2
+      "position": 5
     },
     "cs": {
       "value": "```cs",
       "isEnabled": true,
-      "position": 4,
+      "position": 7,
       "isCaseSensitive": false
     },
     "cf": {
       "value": "```",
       "isEnabled": true,
-      "position": 3
+      "position": 6
     },
     "cjs": {
       "value": "```js",
       "isEnabled": true,
+      "position": 4
+    },
+    "cimp": {
+      "value": "> [!important]",
+      "isEnabled": true,
+      "position": 2
+    },
+    "cwarn": {
+      "value": ">[!warning]",
+      "isEnabled": true,
+      "position": 3
+    },
+    "cnote": {
+      "value": "> [!note]",
+      "isEnabled": true,
       "position": 1
     },
-    "warning": {
-      "value": ">[!warning]",
+    "cinfo": {
+      "value": "> [!info]",
       "isEnabled": true,
       "position": 0
     }

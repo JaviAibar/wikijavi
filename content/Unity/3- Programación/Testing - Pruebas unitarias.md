@@ -1,6 +1,6 @@
 Para ver Testing con Zenject [mirar aquí](https://sites.google.com/view/wikijavi/unity/medio/unity-zenject-gu%C3%ADa-r%C3%A1pida#h.mv6rogotfhvv)
 
-> [!note] Para ver Testing con Zenject [[Unity/2- Técnicas/Zenject/Unity Zenject GUÍA RÁPIDA|Unity Zenject GUÍA RÁPIDA#Testing|Testing]]
+> [!note] Para ver Testing con Zenject [[Unity Zenject GUÍA RÁPIDA|Unity Zenject GUÍA RÁPIDA#Testing|Testing]]
 
 # PlayMode vs EditMode
 

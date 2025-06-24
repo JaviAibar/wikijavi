@@ -4,39 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "9d307a02a7ca26e4",
+        "id": "986073a491ced809",
         "type": "tabs",
         "children": [
           {
-            "id": "92326928b17448ba",
+            "id": "96e37d0176cc15f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unity/2- Técnicas/Zenject/Unity Zenject GUÍA RÁPIDA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Unity Zenject GUÍA RÁPIDA"
-            }
-          },
-          {
-            "id": "f10a33caade789f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unity/2- Técnicas/Zenject/Unity Zenject DETALLADO.md",
+                "file": "Unity/3- Programación/Dots/ECS (Entity Component System).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unity Zenject DETALLADO"
+              "title": "ECS (Entity Component System)"
+            }
+          },
+          {
+            "id": "27e09ee2fb24047e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unity/3- Programación/Dots/Dots.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dots"
+            }
+          },
+          {
+            "id": "c63f32ed808e7766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Cheatsheet Obsidian + Quartz.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cheatsheet Obsidian + Quartz"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Señal",
+                "query": "cheat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +103,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,53 +193,54 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1c068e988ea94b47",
+  "active": "27e09ee2fb24047e",
   "lastOpenFiles": [
-    "Unity/2- Técnicas/Zenject/Unity Zenject DETALLADO.md",
-    "Unity/2- Técnicas/Zenject/Unity Zenject GUÍA RÁPIDA.md",
-    "Pasted image 20250622201325.png",
-    "Pasted image 20250622201314.png",
-    "Pasted image 20250622201242.png",
-    "Pasted image 20250622201226.png",
-    "Pasted image 20250622201125.png",
-    "Pasted image 20250622201023.png",
-    "Pasted image 20250622201019.png",
-    "Pasted image 20250622201007.png",
-    "Pasted image 20250622200010.png",
-    "Pasted image 20250622200009.png",
+    "Pasted image 20250624224122.png",
+    "Pasted image 20250624224103.png",
+    "Pasted image 20250624224047.png",
+    "Pasted image 20250624224026.png",
+    "Pasted image 20250624224007.png",
+    "Pasted image 20250624224000.png",
+    "Pasted image 20250624223944.png",
+    "Pasted image 20250624223943.png",
+    "Pasted image 20250624223922.png",
+    "Pasted image 20250624223902.png",
+    "Pasted image 20250624223755.png",
+    "Unity/3- Programación/Dots/Burst compiler.md",
+    "Unity/3- Programación/Dots/ECS (Entity Component System).md",
+    "Unity/3- Programación/Dots/Jobs.md",
+    "Unity/3- Programación/Dots/Dots.md",
+    "Unity/2- Técnicas/Crear una base de datos.md",
+    "Unity/3- Programación/Dots",
+    "Unity/3- Programación/Librerias Unity.md",
+    "Unity/10- Multiplayer/Instalación entorno multiplayer.md",
+    "Unity/10- Multiplayer/Ejemplo Multiplayer Snake.md",
+    "Obsidian/Cheatsheet Obsidian + Quartz.md",
+    "Unity/10- Multiplayer/Networking - Netcode for GameObjects (NGO)).md",
+    "Unity/10- Multiplayer",
+    "Unity/3- Programación/Assembly.md",
     "Unity/3- Programación/Testing - Pruebas unitarias.md",
-    "Unity/2- Técnicas/Zenject/Análisis Zenject-Hero.md",
+    "Programación/Lenguajes de programación/Prism (WPF)/Prism ViewModelLocator.md",
+    "Unity/2- Técnicas/Cinemachine.md",
+    "Unity/3- Programación/Patrón de diseño Command Unity.md",
+    "Unity/3- Programación/Zenject/Análisis Zenject-Hero.md",
+    "Unity/3- Programación/Zenject/Unity Zenject DETALLADO.md",
+    "Unity/3- Programación/Zenject/Unity Zenject GUÍA RÁPIDA.md",
+    "Programación/Lenguajes de programación/SQL/Joins.md",
     "Unity/Lo básico.md",
     "Unity/Escenas/Escenas.md",
     "Unity/12- Ejemplos de Unity/Ejemplo corrutina.md",
-    "Obsidian/Cheatsheet Obsidian + Quartz.md",
     "Unity/Unity index.md",
     "Unity/Unity Zenject GUÍA RÁPIDA.md",
     "Programación/1- Teoria Programación/Patrones de diseño/(DI) Dependency Inyection.md",
-    "Unity/2- Técnicas/Zenject",
-    "Unity/2- Técnicas/Mostrar cam de un dispositivo.md",
-    "Unity/9- XR Unity/Introducción a la realidad virtual Virtual Reality VR.md",
-    "Unity/9- XR Unity/Introducción a la realidad aumentada.md",
-    "Unity/3- Programación/Cómo funciona Time.deltaTime.md",
+    "Unity/3- Programación/Zenject",
     "Unity/9- XR Unity",
-    "Unity/2- Técnicas/Orden de dibujado.md",
-    "Unity/3- Programación/Como funcionan las corrutinas.md",
-    "Unity/2- Técnicas/Luces 2D.md",
-    "Unity/2- Técnicas/Malla paramétrica en Blender.md",
-    "Unity/2- Técnicas/Cómo funcionan los Quaternion.md",
-    "Unity/4- Eficiencia y optimización/4.1 - Buenas prácticas/Assembly.md",
     "Unity/10- Otros/Zenject",
-    "Unity/1- Conceptos generales/Qué significa exactamente serializar.md",
-    "Git/Gitlab + TortoiseGit.md",
-    "Git/Gitlab.md",
-    "Unity/8- Mates/Operación Dot (producto escalar).md",
     "Unity/8- Mates",
     "Unity/4- Eficiencia y optimización/4.1 - Buenas prácticas",
     "Unity/6- GUI",
     "Unity/7- Particulas/Problemas con particulas Unity",
     "Unity/7- Particulas",
-    "Unity/11- Miscelánea",
-    "Unity/10- Otros",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]

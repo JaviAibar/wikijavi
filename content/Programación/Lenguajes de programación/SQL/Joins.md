@@ -72,8 +72,6 @@ Si este mismo ejemplo fuera `INNER JOIN` daría el siguiente resultado
 
 Cortesía imagen [amigoscode.com](http://amigoscode.com/)
 
-  
-[#systemdesign](https://www.linkedin.com/feed/hashtag/?keywords=systemdesign&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7173281082790916096) [#coding](https://www.linkedin.com/feed/hashtag/?keywords=coding&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7173281082790916096) [#interviewtips](https://www.linkedin.com/feed/hashtag/?keywords=interviewtips&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7173281082790916096)
 
 ![[sql joins.gif]]
 

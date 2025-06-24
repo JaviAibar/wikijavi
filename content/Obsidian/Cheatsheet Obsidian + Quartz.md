@@ -37,7 +37,9 @@ Imágenes con enlace
 This is a linked image[![[yourimagename.png]]](<PATH/TO/THE NOTE>)
 ```
 
-[![[zz Media/Pasted image 20240731183320.png|100]]](<Ejemplo corrutina.md>)
+> [!warning] El ejemplo de Unity está roto pero me da pereza corregirlo. Sorry
+
+[![[zz Media/Pasted image 20240731183320.png|100]]](\<Ejemplo corrutina.md>) ^roto
 
 
 Tanto la imagen como el enlace pueden ser online
@@ -94,3 +96,14 @@ https://prismjs.com/#supported-languages
 
 > [!CAUTION] Cuidado!! Título en español!
 > Advises about risks or negative outcomes of certain actions.
+
+> [!importante]- Como hacer bloques de estos que se cierran?
+> Poniendo un "-" delante de la selección, es decir `> [!importante]-`
+
+# Enlazar a bloques
+
+Ponemos un bloque y le asignamos con \^ un nombre ^ejemploBloque
+
+> [!warning] El bloque debe estar separado del texto por, al menos, un espacio
+
+Para poder referenciarlo, ponemos un enlace normal seguido de \#^ y el nombre [[Cheatsheet Obsidian + Quartz#^ejemploBloque]]
