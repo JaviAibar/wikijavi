@@ -51,7 +51,9 @@ build_unity:
 pages:
   stage: deploy
   dependencies:
-    - build  # Asegura que el job `build` se complete primero
+    - build_media
+    - build_prog
+    - build_unity  # Asegura que el job `build` se complete primero
   script:
     - mv public .public  # Renombra la carpeta (más eficiente que copiar)
     - mv .public public  # GitLab Pages espera los archivos en `public/`
