@@ -1,23 +1,52 @@
 stages:
-  - build
+  - build_media
+  - build_prog
+  - build_unity
   - deploy
 
-image: node:22
-cache:
-  key: $CI_COMMIT_REF_SLUG
-  paths:
-    - node_modules/
+default:
+  image: node:22
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - node_modules/
 
-build:
-  stage: build
+build_media:
+  stage: build_media
   script:
     - npm ci
     - echo "Building the site..."
     - npx quartz build  # Genera los archivos en `public/`
   artifacts:
     paths:
-      - public
+      - public/zz-Media
     expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
+
+build_programacion:
+  stage: build_prog
+  script:
+    - npm ci
+    - echo "Building the site..."
+    - npx quartz build  # Genera los archivos en `public/`
+  artifacts:
+    paths:
+      - public/Programación
+    expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
+
+
+
+build_unity:
+  stage: build_unity
+  script:
+    - npm ci
+    - echo "Building the site..."
+    - npx quartz build  # Genera los archivos en `public/`
+  artifacts:
+    paths:
+      - public/Unity
+      - public/zz-Media-Unity
+    expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
+
 
 pages:
   stage: deploy
