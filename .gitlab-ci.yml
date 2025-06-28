@@ -22,7 +22,7 @@ build_media:
       - public/zz-Media
     expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
 
-build_programacion:
+build_prog:
   stage: build_prog
   script:
     - npm ci
