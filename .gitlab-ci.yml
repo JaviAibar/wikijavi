@@ -1,6 +1,6 @@
 stages:
-  - build_media
-  - build_prog
+  #- build_media
+  #- build_prog
   - build_unity
   - build_otros
   - deploy
@@ -64,8 +64,8 @@ build_otros:
 pages:
   stage: deploy
   dependencies:
-    - build_media
-    - build_prog
+  #  - build_media
+  #  - build_prog
     - build_unity  # Asegura que el job `build` se complete primero
     - build_otros
   script:
