@@ -10,8 +10,7 @@ Esto creo que es lo que ofrece Unity (no sé si es de pago)
 
 ![[Pasted image 20250624185733.png]]
 
-Para ver la instalación del entorno multiplayer incluído los requisitos y el ParrelSync, puedes visitar la subpágina de [Instalación entorno multiplayer](https://sites.google.com/view/wikijavi/unity/avanzado/networking-nuevo/instalaci%C3%B3n-entorno-multiplayer) #CambiarURL 
-
+Para ver la instalación del entorno multiplayer incluído los requisitos y el ParrelSync, puedes visitar la subpágina de [[Instalación entorno multiplayer]]
 # Desarrollo del programa
 
 ## NetworkManager

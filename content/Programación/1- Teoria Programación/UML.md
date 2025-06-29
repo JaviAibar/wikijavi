@@ -7,7 +7,7 @@ Significa Unified Modeling Language
 
 La Composición se suele representar en UML con un rombo de color negro en un extremo de las clases.
 
-Uso explicado en [OOP: Composición](https://sites.google.com/view/wikijavi/inform%C3%A1tica/lenguajes-de-programaci%C3%B3n/oop#h.3b7m40s0x00i) #CambiarURL
+Uso explicado en [[OOP#Composición]]
 
 ![[Pasted image 20250610154919.png]]
 
@@ -15,7 +15,7 @@ Uso explicado en [OOP: Composición](https://sites.google.com/view/wikijavi/info
 
 La Agregación se suele representar en UML con un rombo de color transparente en un extremo de las clases.
 
-Uso explicado en [OOP: Agregación](https://sites.google.com/view/wikijavi/inform%C3%A1tica/lenguajes-de-programaci%C3%B3n/oop#h.eq8xb2915sj)
+Uso explicado en [[OOP#Agregación]] 
 
 ![[Pasted image 20250610154953.png]]
 

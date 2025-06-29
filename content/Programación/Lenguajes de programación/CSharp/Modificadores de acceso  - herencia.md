@@ -1,6 +1,6 @@
 # Acceso
 
-internal - Para acceso solo desde dentro del [assembly](https://sites.google.com/d/13BAZX83ZVzuHzEhdp8djpzp8Y_hPuGTi/p/1ih7sEBbOHmVFrUcAtXgubw_KtUR3KrmD/edit) #CambiarURL -> Unity>Avanzado>Assembly
+internal - Para acceso solo desde dentro del [[assembly]] -> Unity>Avanzado>Assembly
 
 protected - Permite acceso a las propias clases y derivadas
 

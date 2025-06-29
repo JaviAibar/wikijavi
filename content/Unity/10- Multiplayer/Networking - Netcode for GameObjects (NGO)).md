@@ -129,30 +129,30 @@ El retraso cuando transmites un mensaje, debido a la distancia que tiene que via
 - Interpolación - Hacer más suave gracias a funciones matemáticas en el cliente. Ejemplo: El server va mandando posiciones: En lugar de que parezca que se teletransporta, se hace una transición entre cada punto
     
 
-NGO Está pensado para juegos simples. Si necesitas calculo de físicas o muchos jugadores mira [Netcode for Entities](https://docs.unity3d.com/Packages/com.unity.netcode@1.0/manual/index.html) para lo cual necesitará la movida del [DOTS](https://sites.google.com/d/13BAZX83ZVzuHzEhdp8djpzp8Y_hPuGTi/p/1uDVEYrCG3dbjdGg1osQnOxmQvkogqXDd/edit) #CambiarURL 
+NGO Está pensado para juegos simples. Si necesitas calculo de físicas o muchos jugadores mira [Netcode for Entities](https://docs.unity3d.com/Packages/com.unity.netcode@1.0/manual/index.html) para lo cual necesitará la movida del [[Dots]]
 
 > [!important] Para ver un proyecto de ejemplo, puedes visitar la subpágina
-> [Snake Multiplayer](https://sites.google.com/d/13BAZX83ZVzuHzEhdp8djpzp8Y_hPuGTi/p/1y8MiT_-u_7ci-KcuafdPdjbmkzpIfraw/edit) #CambiarURL 
+> [[Ejemplo Multiplayer Snake]]
 
 > [!important] Para ver la instalación del entorno multiplayer incluído los requisitos y el ParrelSync, puedes visitar la subpágina de
 > 
-> [Instalación entorno multiplayer](https://sites.google.com/d/13BAZX83ZVzuHzEhdp8djpzp8Y_hPuGTi/p/153kYb8KuBZ4g0ItCOdFo3EmnGtFmJ5YH/edit) #CambiarURL 
+> [[Instalación entorno multiplayer]] 
 
 # Elementos imprescindibles / muy importantes:
 
-NetworkManager será el corazón del multiplayer. El que crea el servidor, el que une jugadores a la partida y maneja el transport. Más detalles en el [proyecto de ejemplo #NetworkManager](https://sites.google.com/view/wikijavi/unity/avanzado/networking-nuevo/ejemplo-multiplayer-snake#h.jpi0cu337f8w)
-
+NetworkManager será el corazón del multiplayer. El que crea el servidor, el que une jugadores a la partida y maneja el transport. Más detalles en el [[Ejemplo Multiplayer Snake#NetworkManager|proyecto de ejemplo]]
 ### NetworkObject / NetworkBehaviour
 
-Permite que los elementos hagan Spawn. Más detalles en el [proyecto de ejemplo #NetworkObject](https://sites.google.com/view/wikijavi/unity/avanzado/networking-nuevo/ejemplo-multiplayer-snake#h.vz5gxr38hv8n) #CambiarURL 
+Permite que los elementos hagan Spawn. Más detalles en el [[Ejemplo Multiplayer Snake#Player Prefab (Network Object)|proyecto de ejemplo]]
 
 ### NetworkTransform
 
-Permite sincronizar el movimiento del personaje entre todos los clientes simplemente asignandose en el servidor. Más detalles en el [proyecto de ejemplo #NetworkTransform](https://sites.google.com/view/wikijavi/unity/avanzado/networking-nuevo/ejemplo-multiplayer-snake#h.6h3vi58mj23k) #CambiarURL 
+Permite sincronizar el movimiento del personaje entre todos los clientes simplemente asignándose en el servidor. Más detalles en el [[Ejemplo Multiplayer Snake#Network Transform|proyecto de ejemplo]]
+
 
 ### NetworkAnimator
 
-Sincroniza las animaciones por todos los clientes. Más info [en el proyecto de ejemplo #NetworkAnimator](https://sites.google.com/view/wikijavi/unity/avanzado/networking-nuevo/ejemplo-multiplayer-snake#h.ssb6wt1lvo98) #CambiarURL 
+Sincroniza las animaciones por todos los clientes. Más info  [[Ejemplo Multiplayer Snake#Network Animator|proyecto de ejemplo]] 
 
 ### NetworkObjectPool
 
