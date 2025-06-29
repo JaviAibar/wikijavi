@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>WikiJavi ⭐</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Últimas 10 notas on WikiJavi ⭐</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Partícula detrás de GameObject</title>
+    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</link>
+    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</guid>
+    <description>WIP.</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Propiedades de las partículas (configuraciones)</title>
+    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</link>
+    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</guid>
+    <description>Menu Particle System Algunos de estos valores tiene una flechita a la derecha para aleatorizar la cosa. Duration: Segundos que dura un ciclo, si quitas el loop, una vez pasados dichos segundo, dejarán de aparecer nuevas particulas.</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Textura y material para particulas</title>
+    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</link>
+    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</guid>
+    <description> .</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Operación Dot (producto escalar)</title>
+    <link>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</link>
+    <guid>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</guid>
+    <description>Aplica el producto escalar entre dos vectores.</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Atajos Shortcuts</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</guid>
+    <description>Ctrl + K ⇒ Permite buscar en toda la jerarquía | esto también te permite buscar aquello que está roto (missing script p.e.).</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Compilar no pare la ejecución</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Compilar-no-pare-la-ejecuci%C3%B3n</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Compilar-no-pare-la-ejecuci%C3%B3n</guid>
+    <description>En Edit &gt; Preferences &gt; General &gt; Script Changes While Playing Keywords Playmode play ejecucion compilacion parar pare para.</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Escalar con canvas</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Escalar-con-canvas</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Escalar-con-canvas</guid>
+    <description></description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>GameObjects origen (0, 0, 0) por defecto</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/GameObjects-origen-(0,-0,-0)-por-defecto</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/GameObjects-origen-(0,-0,-0)-por-defecto</guid>
+    <description>En Edit &gt; Preferences &gt; Scene View &gt; Create Objects at Origin Keywords Centrar descentrado offset nuevo objecto crear centro punto medio.</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Materiales también prefab</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Materiales-tambi%C3%A9n-prefab</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Materiales-tambi%C3%A9n-prefab</guid>
+    <description>A partir de la versión 2022 de Unity, podemos crear materiales de la misma forma que creamos prefabs, con herencia incluída.</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item><item>
+    <title>Que se vean los eventos en el inspector</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Que-se-vean-los-eventos-en-el-inspector</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Que-se-vean-los-eventos-en-el-inspector</guid>
+    <description>Para añadir funciones a UnityEvents por código y salgan en el inspector: UnityEventTools.AddPersistentListener(unityEvent, function) No tiene pinta de que sirva durante la ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
