@@ -1,6 +1,6 @@
 stages:
-  - build_media
-  - build_prog
+  #- build_media
+  #- build_prog
   - build_unity
   - build_otros
   - deploy
@@ -12,27 +12,7 @@ default:
     paths:
       - node_modules/
 
-build_media:
-  stage: build_media
-  script:
-    - npm ci
-    - echo "Building the site..."
-    - npx quartz build  # Genera los archivos en `public/`
-  artifacts:
-    paths:
-      - public/zz-Media
-    expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
 
-build_prog:
-  stage: build_prog
-  script:
-    - npm ci
-    - echo "Building the site..."
-    - npx quartz build  # Genera los archivos en `public/`
-  artifacts:
-    paths:
-      - public/Programación
-    expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
 
 
 
@@ -64,8 +44,8 @@ build_otros:
 pages:
   stage: deploy
   dependencies:
-    - build_media
-    - build_prog
+  #  - build_media
+  #  - build_prog
     - build_unity  # Asegura que el job `build` se complete primero
     - build_otros
   script:
