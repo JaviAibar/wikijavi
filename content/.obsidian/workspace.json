@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Otros/Git/Cambiar de repositorio remoto.md",
+                "file": "Otros/Git/CI-CD/Github actions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cambiar de repositorio remoto"
+              "title": "Github actions"
             }
           }
         ]
@@ -166,10 +166,16 @@
   },
   "active": "96e37d0176cc15f7",
   "lastOpenFiles": [
+    "Pasted image 20250629130109.png",
+    "Pasted image 20250629125943.png",
+    "Pasted image 20250629125821.png",
+    "Otros/Git/CI-CD/Sin título.md",
+    "Otros/Git/CI-CD/Github actions.md",
+    "Otros/Git/CI-CD/GitLab Implementación de CI-CD.md",
+    "Otros/Git/Cambiar de repositorio remoto.md",
     "Pasted image 20250629122259.png",
     "Pasted image 20250629122151.png",
     "Otros/Git/Tengo un problema con Git/error. remote origin already exists..md",
-    "Otros/Git/Cambiar de repositorio remoto.md",
     "Otros/Git/3 - git HEAD.md",
     "Otros/Git/2 - git checkout.md",
     "Otros/Git/1 - Configurar push por defecto.md",
@@ -194,18 +200,12 @@
     "zz Media Unity/Pasted image 20250624224103.png",
     "zz Media Unity/Pasted image 20250624224047.png",
     "zz Media Unity/Pasted image 20250624224026.png",
-    "zz Media Unity/Pasted image 20250624224007.png",
-    "zz Media Unity/Pasted image 20250624224000.png",
-    "zz Media Unity/Pasted image 20250624223944.png",
     "Unity/3- Programación/Dots/Burst compiler.md",
     "Unity/3- Programación/Dots/Jobs.md",
     "Unity/2- Técnicas/Crear una base de datos.md",
     "Unity/3- Programación/Dots",
     "Unity/3- Programación/Librerias Unity.md",
     "Unity/10- Multiplayer/Instalación entorno multiplayer.md",
-    "Unity/10- Multiplayer/Ejemplo Multiplayer Snake.md",
-    "Otros/Obsidian/Cheatsheet Obsidian + Quartz.md",
-    "Unity/10- Multiplayer/Networking - Netcode for GameObjects (NGO)).md",
     "Unity/10- Multiplayer",
     "Unity/3- Programación/Zenject",
     "Unity/9- XR Unity",
