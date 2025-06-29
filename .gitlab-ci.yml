@@ -2,6 +2,7 @@ stages:
   - build_media
   - build_prog
   - build_unity
+  - build_otros
   - deploy
 
 default:
@@ -47,6 +48,18 @@ build_unity:
       - public/zz-Media-Unity
     expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
 
+build_otros:
+  stage: build_otros
+  script:
+    - npm ci
+    - echo "Building the site..."
+    - npx quartz build  # Genera los archivos en `public/`
+  artifacts:
+    paths:
+      - public/Otros
+    expire_in: 1 hour  # Opcional: Limpia el artefacto después del despliegue
+
+
 
 pages:
   stage: deploy
@@ -54,7 +67,9 @@ pages:
     - build_media
     - build_prog
     - build_unity  # Asegura que el job `build` se complete primero
+    - build_otros
   script:
+    - mv public/Otros public
     - mv public .public  # Renombra la carpeta (más eficiente que copiar)
     - mv .public public  # GitLab Pages espera los archivos en `public/`
   artifacts:
