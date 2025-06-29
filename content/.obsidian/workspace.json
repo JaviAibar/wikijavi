@@ -25,14 +25,12 @@
             "id": "27e09ee2fb24047e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Unity/3- Programación/Dots/Dots.md",
-                "mode": "source",
-                "source": false
+                "file": "zz Media/UMLNotationSummary.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Dots"
+              "icon": "lucide-file-text",
+              "title": "UMLNotationSummary"
             }
           },
           {
@@ -193,29 +191,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "27e09ee2fb24047e",
+  "active": "f081ab8d861b5054",
   "lastOpenFiles": [
-    "Pasted image 20250624224122.png",
-    "Pasted image 20250624224103.png",
-    "Pasted image 20250624224047.png",
-    "Pasted image 20250624224026.png",
-    "Pasted image 20250624224007.png",
-    "Pasted image 20250624224000.png",
-    "Pasted image 20250624223944.png",
-    "Pasted image 20250624223943.png",
-    "Pasted image 20250624223922.png",
-    "Pasted image 20250624223902.png",
-    "Pasted image 20250624223755.png",
+    "zz Media/sql joins.gif",
+    "Otros/Páginas a recordar.md",
+    "Sin título 1.canvas",
+    "Sin título.canvas",
+    "Otros/index.md",
+    "zz Media Unity/Pasted image 20250624222237.png",
+    "Unity/3- Programación/Dots/Dots.md",
+    "zz Media Unity/Pasted image 20250624224122.png",
+    "zz Media Unity/Pasted image 20250624224103.png",
+    "zz Media Unity/Pasted image 20250624224047.png",
+    "zz Media Unity/Pasted image 20250624224026.png",
+    "zz Media Unity/Pasted image 20250624224007.png",
+    "zz Media Unity/Pasted image 20250624224000.png",
+    "zz Media Unity/Pasted image 20250624223944.png",
+    "zz Media Unity/Pasted image 20250624223943.png",
+    "zz Media Unity/Pasted image 20250624223922.png",
     "Unity/3- Programación/Dots/Burst compiler.md",
     "Unity/3- Programación/Dots/ECS (Entity Component System).md",
     "Unity/3- Programación/Dots/Jobs.md",
-    "Unity/3- Programación/Dots/Dots.md",
     "Unity/2- Técnicas/Crear una base de datos.md",
     "Unity/3- Programación/Dots",
     "Unity/3- Programación/Librerias Unity.md",
     "Unity/10- Multiplayer/Instalación entorno multiplayer.md",
     "Unity/10- Multiplayer/Ejemplo Multiplayer Snake.md",
-    "Obsidian/Cheatsheet Obsidian + Quartz.md",
+    "Otros/Obsidian/Cheatsheet Obsidian + Quartz.md",
     "Unity/10- Multiplayer/Networking - Netcode for GameObjects (NGO)).md",
     "Unity/10- Multiplayer",
     "Unity/3- Programación/Assembly.md",
@@ -231,8 +233,6 @@
     "Unity/Escenas/Escenas.md",
     "Unity/12- Ejemplos de Unity/Ejemplo corrutina.md",
     "Unity/Unity index.md",
-    "Unity/Unity Zenject GUÍA RÁPIDA.md",
-    "Programación/1- Teoria Programación/Patrones de diseño/(DI) Dependency Inyection.md",
     "Unity/3- Programación/Zenject",
     "Unity/9- XR Unity",
     "Unity/10- Otros/Zenject",
@@ -240,8 +240,6 @@
     "Unity/4- Eficiencia y optimización/4.1 - Buenas prácticas",
     "Unity/6- GUI",
     "Unity/7- Particulas/Problemas con particulas Unity",
-    "Unity/7- Particulas",
-    "Sin título.canvas",
-    "Sin título 1.canvas"
+    "Unity/7- Particulas"
   ]
 }
