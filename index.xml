@@ -6,65 +6,65 @@
       <description>Últimas 10 notas on WikiJavi ⭐</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Partícula detrás de GameObject</title>
-    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</link>
-    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</guid>
-    <description>WIP.</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Introducción a la realidad aumentada</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-aumentada</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-aumentada</guid>
+    <description>Antes de comenzar creo que debes tener instalado Servicios de Google Play para RA (o un nombre parecido) y tal vez ARCore Elements Unity provee una plantilla que puedes descargar de ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Propiedades de las partículas (configuraciones)</title>
-    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</link>
-    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</guid>
-    <description>Menu Particle System Algunos de estos valores tiene una flechita a la derecha para aleatorizar la cosa. Duration: Segundos que dura un ciclo, si quitas el loop, una vez pasados dichos segundo, dejarán de aparecer nuevas particulas.</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Introducción a la realidad virtual Virtual Reality VR</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-virtual-Virtual-Reality-VR</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-virtual-Virtual-Reality-VR</guid>
+    <description>Introducción Este tutorial está pensado para Unity XR Toolkit 2022 y fue publicado en julio de 2022 Activar VR Edit &gt; Project Settings &gt; XR Plugin Management Para abarcar el ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Textura y material para particulas</title>
-    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</link>
-    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</guid>
-    <description> .</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Escenas</title>
+    <link>https://quartz.jzhao.xyz/Unity/Escenas/Escenas</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Escenas/Escenas</guid>
+    <description>Las escenas son contenedores de GameObjects Se pueden ejecutar 2 escenas simultáneamente, siempre y cuando, compartan jerarquía.</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Operación Dot (producto escalar)</title>
-    <link>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</link>
-    <guid>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</guid>
-    <description>Aplica el producto escalar entre dos vectores.</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>ACU Multilan (herramienta de tradución de Diru) 2022.10.20</title>
+    <link>https://quartz.jzhao.xyz/Unity/Herramientas/ACU-Multilan-(herramienta-de-traduci%C3%B3n-de-Diru)-2022.10.20</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Herramientas/ACU-Multilan-(herramienta-de-traduci%C3%B3n-de-Diru)-2022.10.20</guid>
+    <description>Preámbulos El pack se compone del código base y el editor Window La ventana de edición se puede acceder desde Window &gt; Multilanguage Procedimiento Primero creamos el idioma introduciendo ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Atajos Shortcuts</title>
-    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</link>
-    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</guid>
-    <description>Ctrl + K ⇒ Permite buscar en toda la jerarquía | esto también te permite buscar aquello que está roto (missing script p.e.).</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Character Controller</title>
+    <link>https://quartz.jzhao.xyz/Unity/Herramientas/Character-Controller</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Herramientas/Character-Controller</guid>
+    <description>El personaje no resbala Resulta que charController.isGrounded y el slope limit funcionan regular, así que sugiere sustituir estas funciones por las nuestras ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Compilar no pare la ejecución</title>
-    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Compilar-no-pare-la-ejecuci%C3%B3n</link>
-    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Compilar-no-pare-la-ejecuci%C3%B3n</guid>
-    <description>En Edit &gt; Preferences &gt; General &gt; Script Changes While Playing Keywords Playmode play ejecucion compilacion parar pare para.</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Herramientas tools</title>
+    <link>https://quartz.jzhao.xyz/Unity/Herramientas/Herramientas-tools</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Herramientas/Herramientas-tools</guid>
+    <description>Prototipado Prototyping Pack 3D Prototipado escenas Unity (free) Third Person Character CharacterController Controller Caracter (free) First Person Character CharacterController ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Escalar con canvas</title>
-    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Escalar-con-canvas</link>
-    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Escalar-con-canvas</guid>
-    <description></description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Localization</title>
+    <link>https://quartz.jzhao.xyz/Unity/Herramientas/Localization</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Herramientas/Localization</guid>
+    <description>Configuración inicial En el Package Manager, si no lo encuentras buscando, le das a Add package from git URL y pones com.unity.localization Entonces ahora existirá Project Settings ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>GameObjects origen (0, 0, 0) por defecto</title>
-    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/GameObjects-origen-(0,-0,-0)-por-defecto</link>
-    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/GameObjects-origen-(0,-0,-0)-por-defecto</guid>
-    <description>En Edit &gt; Preferences &gt; Scene View &gt; Create Objects at Origin Keywords Centrar descentrado offset nuevo objecto crear centro punto medio.</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Lo básico</title>
+    <link>https://quartz.jzhao.xyz/Unity/Lo-b%C3%A1sico</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Lo-b%C3%A1sico</guid>
+    <description>EXTREMADAMENTE IMPORTANTE Para que un gameobject detecte eventos necesita un collider Para que el collider detecte eventos, necesita un rigidbody this hace referencia al componente ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Materiales también prefab</title>
-    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Materiales-tambi%C3%A9n-prefab</link>
-    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Materiales-tambi%C3%A9n-prefab</guid>
-    <description>A partir de la versión 2022 de Unity, podemos crear materiales de la misma forma que creamos prefabs, con herencia incluída.</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Atajos de teclado</title>
+    <link>https://quartz.jzhao.xyz/Unity/Motor/Atajos-de-teclado</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Motor/Atajos-de-teclado</guid>
+    <description>Utilidades básicas (QWERTY): Q: Mover escena W: Mover objeto E: Rotar … (etc) Botón central: Moviemiento 2D (arriba abajo derecha izquierda) Botón derecho: Rotar 360 sobre el punto ...</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item><item>
-    <title>Que se vean los eventos en el inspector</title>
-    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Que-se-vean-los-eventos-en-el-inspector</link>
-    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Que-se-vean-los-eventos-en-el-inspector</guid>
-    <description>Para añadir funciones a UnityEvents por código y salgan en el inspector: UnityEventTools.AddPersistentListener(unityEvent, function) No tiene pinta de que sirva durante la ...</description>
-    <pubDate>Sun, 29 Jun 2025 11:01:58 GMT</pubDate>
+    <title>Unity index</title>
+    <link>https://quartz.jzhao.xyz/Unity/Unity-index</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Unity-index</guid>
+    <description>Asincronía en Unity Async Wait Optimizaciones en Unity Ejemplos Unity Ejemplo corrutina.</description>
+    <pubDate>Sun, 29 Jun 2025 11:24:13 GMT</pubDate>
   </item>
     </channel>
   </rss>
