@@ -5,7 +5,7 @@ cd C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\PlaybackEngines\And
 adb logcat | findstr -i unity
 ```
 
-Hay que ejecutar el monitor en las tools de Android
+Hay que ejecutar el ==monitor== en las tools de Android
 
 En mi caso se encuentra en 
 

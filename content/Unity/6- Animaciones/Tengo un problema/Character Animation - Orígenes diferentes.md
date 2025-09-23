@@ -3,9 +3,8 @@ Esta entrada trata el caso concreto del proyecto de animación 4 de la asignatur
 La cosa comienza con que me descargué de la Unity Store un Character ya riggeado y con animaciones ya hechas, pero traía 2 problemas:
 
 1. Las animaciones no incluyen root motion, eso quiere decir, que el movimiento es estático, es decir, se mueven los pies, pero el personaje queda en la misma posición
-    
+ 
 2. El nombre de los huesos no coincide con el establecido por mixamo
-    
 
 Para evitar problemas con que las animaciones no tengan root motion, se han descargado animaciones de mixamo, de ahí el segundo problema, que no funciona directamente
 

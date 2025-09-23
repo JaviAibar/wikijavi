@@ -2,7 +2,6 @@ Por simplicidad, ya que existen varios tipos, hablaremos en términos del Vertic
 
 Este componente sitúa los elementos uno encima de otro, diviendo por defecto el espacio disponible entre los elementos, independientemente de su tamaño
 
-
 | ![[Pasted image 20250622135138.png]] | ![[Pasted image 20250622135141.png]] |
 | ------------------------------------ | ------------------------------------ |
 |                                      |                                      |
@@ -34,11 +33,12 @@ Básicamente es la posición del pivote para el conjunto de elementos. Ejemplo c
 
 Activa o desactiva que LayoutGroup controle el ancho y alto de los hijos. 
 
+Creo que para que funcione bien se tiene que activar `Child Force Expand` o añadir un `Element Layout` para ajustar el tamaño
+
 
 > [!Warning] CUIDADO
 > Si Child Force Expand está activado hará que ocupen todo el espacio deformando los objetos (me pasó en el ejemplo xD)
 
-Creo que para que funcione bien se tiene que activar `Child Force Expand` o añadir un `Element Layout` para ajustar el tamaño
 
 *Ejemplo con ambos activados*
 ![[Pasted image 20250622135348.png]]
@@ -50,7 +50,7 @@ Partiendo de esta posición hacemos lo dicho: mantener alto y quitar ancho.
 ![[Pasted image 20250622135405.png]]
 
   
-Aumentando alto y dismenuyendo el alto del padre, se ve como se ha ajustado el alto (sigue ocupando todo el espacio) y el ancho permanece fijo (se sale del marco del padre)
+Aumentando alto y disminuyendo el alto del padre, se ve como se ha ajustado el alto (sigue ocupando todo el espacio) y el ancho permanece fijo (se sale del marco del padre)
 
 ![[Pasted image 20250622135416.png]]
 

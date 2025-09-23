@@ -17,3 +17,8 @@ Esta es la jerarquía necesaria para tener un menú con scroll
 ![[Pasted image 20250622134832.png]]
 
 Dentro de contenido ya podemos poner tantos items como queramos y con el formato que queramos
+
+# Tengo un problema
+## El Scrollview no funciona
+
+Está tratado en [[El Scrollview no funciona]]

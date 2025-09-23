@@ -44,6 +44,17 @@ Si tienes que hacer un calculo complejo como un pathfinding o algo así, puedes 
 
 Otro ejemplo sería dividir una escena grande en escenas más pequeñas e ir cargandolas según sea necesario
 
+# Otros
+
+## Building for IL2CPP
+
+1. Construcción incremental (solo se compilarán los archivos modificados)
+2. Excluir carpetas de compilación de antivirus
+3. Tanto proyecto como carpetas de compilación en un SSD
+
+[Fuente 1](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/unity/recommended-settings-for-unity?tabs=openxr#building-for-il2cpp)
+[Fuente 2](https://docs.unity3d.com/es/2021.1/Manual/IL2CPP-OptimizingBuildTimes.html)
+
 # Bibliografía
 
 [https://www.toptal.com/unity-unity3d/top-unity-development-mistakes](https://www.toptal.com/unity-unity3d/top-unity-development-mistakes) 
