@@ -6,65 +6,65 @@
       <description>Últimas 10 notas on WikiJavi ⭐</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Consejos para una buena interfaz</title>
-    <link>https://quartz.jzhao.xyz/Unity/6--GUI/Consejos-para-una-buena-interfaz</link>
-    <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Consejos-para-una-buena-interfaz</guid>
-    <description>...</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Introducción a la realidad mixta</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-mixta</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-mixta</guid>
+    <description>Creo que para desarrollar con esto necesitas unas gafas de RV que además tengan cámara. Por limitaciones técnicas, paso. Keywords Augmented reality AR.</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Cómo funcionan los LayoutGroup</title>
-    <link>https://quartz.jzhao.xyz/Unity/6--GUI/C%C3%B3mo-funcionan-los-LayoutGroup</link>
-    <guid>https://quartz.jzhao.xyz/Unity/6--GUI/C%C3%B3mo-funcionan-los-LayoutGroup</guid>
-    <description>Por simplicidad, ya que existen varios tipos, hablaremos en términos del Vertical Layout Group, pero se puede aplicar al resto Este componente sitúa los elementos uno encima de otro, ...</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Introducción a la realidad virtual Virtual Reality VR</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-virtual-Virtual-Reality-VR</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Introducci%C3%B3n-a-la-realidad-virtual-Virtual-Reality-VR</guid>
+    <description>Lee esto primero Introducción Este tutorial está pensado para Unity XR Toolkit 2022 y fue publicado en julio de 2022 Activar VR Edit &gt; Project Settings &gt; XR Plugin Management ...</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Ejemplo de uso de los anchor (anclas)</title>
-    <link>https://quartz.jzhao.xyz/Unity/6--GUI/Ejemplo-de-uso-de-los-anchor-(anclas)</link>
-    <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Ejemplo-de-uso-de-los-anchor-(anclas)</guid>
-    <description>Cuando las anclas están juntas. Indican su punto de origen, dejando las dimensiones de la pieza fijas El monitor tiene las anclas en el centro del canvas, por lo que aunque cambiemos el tamaño de la ventana, el monitor mantiene posición (centro del canvas) y tamaño Ahora hemos igualado el ancho de las anclas al del monitor, es decir, es una fracción del tamaño de la pantalla.</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Seguimiento imágenes Realidad Aumentada</title>
+    <link>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Seguimiento-im%C3%A1genes-Realidad-Aumentada</link>
+    <guid>https://quartz.jzhao.xyz/Unity/9--XR-Unity/Seguimiento-im%C3%A1genes-Realidad-Aumentada</guid>
+    <description>using System; using System.Collections.Generic; using UnityEngine; using UnityEngine.XR.ARFoundation; using UnityEngine.XR.ARSubsystems; AR Foundation permite coordina ...</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Scroll</title>
-    <link>https://quartz.jzhao.xyz/Unity/6--GUI/Scroll</link>
-    <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Scroll</guid>
-    <description>Jerarquía Esta es la jerarquía necesaria para tener un menú con scroll ScrollList - Es el GameObject que hace de marco y lo conecta todo, tiene como componente ScrollRect que asociará ...</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Lo básico</title>
+    <link>https://quartz.jzhao.xyz/Unity/Lo-b%C3%A1sico</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Lo-b%C3%A1sico</guid>
+    <description>EXTREMADAMENTE IMPORTANTE Para que un gameobject detecte eventos necesita un collider Para que el collider detecte eventos, necesita un rigidbody this hace referencia al componente ...</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Dar tamaño a particula</title>
-    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Dar-tama%C3%B1o-a-particula</link>
-    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Dar-tama%C3%B1o-a-particula</guid>
-    <description>Es lo normal, las partículas tienden a tener forma cuadrada (o eso creo). Pero se puede cambiar con el Start size 3D.</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Unity index</title>
+    <link>https://quartz.jzhao.xyz/Unity/Unity-index</link>
+    <guid>https://quartz.jzhao.xyz/Unity/Unity-index</guid>
+    <description>Asincronía en Unity Async Wait Optimizaciones en Unity Ejemplos Unity Ejemplo corrutina.</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Partícula detrás de GameObject</title>
-    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</link>
-    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</guid>
-    <description>WIP.</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Bienvenido a WikiJavi, una web desarrollada con Obsidian y publicada con Quartz</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>Warning: This Wiki doesn't mean to be complete, exact, organized, perfectly explained nor fulfilled. Its only purpose is to serve as a place to log every piece of information that the author learns and finds interesting to look up in the future.</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Propiedades de las partículas (configuraciones)</title>
-    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</link>
-    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</guid>
-    <description>Menu Particle System Algunos de estos valores tiene una flechita a la derecha para aleatorizar la cosa. Duration: Segundos que dura un ciclo, si quitas el loop, una vez pasados dichos segundo, dejarán de aparecer nuevas particulas.</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Character Animation - Orígenes diferentes</title>
+    <link>https://quartz.jzhao.xyz/Unity/6--Animaciones/Tengo-un-problema/Character-Animation---Or%C3%ADgenes-diferentes</link>
+    <guid>https://quartz.jzhao.xyz/Unity/6--Animaciones/Tengo-un-problema/Character-Animation---Or%C3%ADgenes-diferentes</guid>
+    <description>Esta entrada trata el caso concreto del proyecto de animación 4 de la asignatura ADV (Animation and Design of Videogames). Podría no aplicar a diferentes situaciones La cosa comienza con que me descargué de la Unity Store un Character ya riggeado y con animaciones ya hechas, pero traía 2 problemas: Las animaciones no incluyen root motion, eso quiere decir, que el movimiento es estático, es decir, se mueven los pies, pero el personaje queda en la misma posición El nombre de los huesos no coincide con el establecido por mixamo Para evitar problemas con que las animaciones no tengan root motion, se han descargado animaciones de mixamo, de ahí el segundo problema, que no funciona directamente Para hacerlo funcionar hay que tener en cuenta y llevar a cabo las siguientes acciones y comprobaciones (para hacerlo más cómodo, me referiré a los Characters como Unity, porque de ahí los descargué, y a las animaciones como Mixamo, por la misma razón) Se ha añadido a la escena el prefab de Character Unity y se ha arrastrado dicho prefab NO el root al timeline Se debe ir al Avatar (no prefab) del Character Unity y debe poner Humanoid y Create From This Model Entrar en Configure y revisar que todo esté en verde, en T-Pose Aunque parezca antiintuitivo, la Animación Mixamo se debe poner con su propio Avatar y NO usar el de Character Unity.</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Textura y material para particulas</title>
-    <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</link>
-    <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</guid>
-    <description> .</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Transición de animaciones</title>
+    <link>https://quartz.jzhao.xyz/Unity/6--Animaciones/Transici%C3%B3n-de-animaciones</link>
+    <guid>https://quartz.jzhao.xyz/Unity/6--Animaciones/Transici%C3%B3n-de-animaciones</guid>
+    <description>Si queremos que la transición sea inmediata: Quitar Has exit time Poner Transition duration a 0 Has exit time sirve para cuando quieres que avance automáticamente de una animación ...</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Operación Dot (producto escalar)</title>
-    <link>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</link>
-    <guid>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</guid>
-    <description>Aplica el producto escalar entre dos vectores.</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Como funcionan los LayoutGroup_2</title>
+    <link>https://quartz.jzhao.xyz/Unity/6--GUI/Como-funcionan-los-LayoutGroup_2</link>
+    <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Como-funcionan-los-LayoutGroup_2</guid>
+    <description>Usamos como ejemplo el Vertical Layout Group (abreviado como VLG y Layout Group como LG). Child Force Expand Le ponemos 2 imágenes (con Child Force Expand y 5 px de Spacing para que se vea) Child force expand estira los objetos para que se distribuyan el espacio total del padre, el Spacing pone un poco de espacio entre los elementos Este modo, sin embargo, también nos permite modificar el tamaño de los elementos, que se distribuirán también ese nuevo espacio libre.</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item><item>
-    <title>Atajos Shortcuts</title>
-    <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</link>
-    <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</guid>
-    <description>Ctrl + K ⇒ Permite buscar en toda la jerarquía | esto también te permite buscar aquello que está roto (missing script p.e.).</description>
-    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
+    <title>Como hacer una ventana</title>
+    <link>https://quartz.jzhao.xyz/Unity/6--GUI/Como-hacer-una-ventana</link>
+    <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Como-hacer-una-ventana</guid>
+    <description>Comenzamos creando un panel Truco Para que no esté mareando todo el rato el contenido (se mueve y rota sin querer), se puede utilizar la herramienta mover, que hará que solo puedas mover ...</description>
+    <pubDate>Mon, 08 Jun 2026 07:58:44 GMT</pubDate>
   </item>
     </channel>
   </rss>
