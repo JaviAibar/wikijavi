@@ -1,4 +1,4 @@
-Para info general del patrón de diseño [[(DI) Dependency Inyection]],
+Para info general del patrón de diseño [[Programacion (DI) Dependency Inyection]],
 
 En el ejemplo de [https://prismlibrary.com/docs/wpf/getting-started.html](https://prismlibrary.com/docs/wpf/getting-started.html) crean una dependencia entre MainWindowViewModel y una interfaz random llama ICostumerStore. Para que su implementación pueda ser manejada por el contenedor de dependencias, se debe registrar en App.xaml.cs en el método RegisterTypes:
 

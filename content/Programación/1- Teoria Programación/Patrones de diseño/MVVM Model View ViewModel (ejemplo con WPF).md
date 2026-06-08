@@ -8,7 +8,7 @@ Además, se compone de los siguientes elementos para funcionar: `Stores, Service
 
 Este ejemplo contempla una app de reserva de habitación de hotel
 
-Este ejemplo está más detallado en [[4- Ejemplo MVVM]]
+Este ejemplo está más detallado en [[WPF 4- Ejemplo MVVM]]
 
 # Model y View
 

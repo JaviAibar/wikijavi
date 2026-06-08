@@ -1,6 +1,6 @@
-Es una librería gratuita para la implementación de la [[(DI) Dependency Inyection]] que puedes [encontrar aquí, en Github](https://github.com/modesttree/Zenject)
+Es una librería gratuita para la implementación de la [[Programacion (DI) Dependency Inyection]] que puedes [encontrar aquí, en Github](https://github.com/modesttree/Zenject)
 
-Para info general del patrón de diseño (DI) Dependency Injection, [[(DI) Dependency Inyection]]
+Para info general del patrón de diseño (DI) Dependency Injection, [[Programacion (DI) Dependency Inyection]]
 
 Esta guía se complementa con otra guía más detallada de la librería [en esta pág de WikiJavi](https://sites.google.com/d/13BAZX83ZVzuHzEhdp8djpzp8Y_hPuGTi/p/1VDRe4rp1U995hTahOzxDj_egroxJkGSW/edit), son complementarias, eso quiere decir que casi no se repite información, por tanto, deberías leer las dos, pero como la detallada trata tanto teoría como casos especiales / alternativos, en la mayoría de casos puedes saltarte el detalle si la teoría ya la conoces.
 
@@ -341,7 +341,7 @@ Y ahora esto lo puedes asociar con cualquier acción o subsistema como una barr
 
 # Testing
 
-Se configura igual que [[Testing - Pruebas unitarias|un test normal de Unity]] pero debes añadir a las referencias el assembly `Zenject-TestFramework`
+Se configura igual que [[Unity Testing - Pruebas unitarias|un test normal de Unity]] pero debes añadir a las referencias el assembly `Zenject-TestFramework`
 
 ## EditTests (Unit Tests)
 

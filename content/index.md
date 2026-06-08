@@ -6,7 +6,7 @@ description: "Warning: This Wiki doesn't mean to be complete, exact, organized, 
 [[0 - Git Index]]
 
 # Lenguajes de programación
-[[CSharp index]]
+[[1- CSharp index]]
 
 ## Webdev
 [[WebDev index]]
@@ -18,7 +18,7 @@ description: "Warning: This Wiki doesn't mean to be complete, exact, organized, 
 
 # Programación
 [[Algoritmica index]]
-[[Optimizaciones generales Núcleo]]
+[[CS Optimizaciones generales Núcleo CS]]
 
 # Programas
 [[Programas index]]
@@ -28,8 +28,6 @@ description: "Warning: This Wiki doesn't mean to be complete, exact, organized, 
 
 # Obsidian
 [[Obsidian index]]
-
-
 # Patrones de diseño
 [[Patrones de diseño index]]
 

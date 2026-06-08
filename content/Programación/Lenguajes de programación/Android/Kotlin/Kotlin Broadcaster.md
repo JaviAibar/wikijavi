@@ -1,0 +1,1 @@
+Aparentemente, a través de un intent, como que lanza una especie de evento para que alguien lo reciba y decides cómo tratarlo. Otra cosa que puede lanzar el intent es una Activity, por lo que se abriría la ventana(Activity) correspondiente

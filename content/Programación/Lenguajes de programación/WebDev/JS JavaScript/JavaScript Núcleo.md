@@ -1,4 +1,4 @@
-Para un PowerUp para Trello [[PowerUp para Trello|click aquí]]
+Para un PowerUp para Trello [[JS PowerUp para Trello JS|click aquí]]
 
 # Versiones
 
@@ -247,7 +247,7 @@ const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
 
 ## Modulos (Importar librerías)
 
-Movido [[Modulos|a su propia nota]]
+Movido [[JS Modulos|a su propia nota]]
 ## Operador ternario
 
 Funciona igual que en la mayoría de lenguajes

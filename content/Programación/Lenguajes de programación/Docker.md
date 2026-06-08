@@ -14,6 +14,22 @@ Descargar una imagen basada en linux y se instala con un comando, Se pueden tene
 
 Tal vez me equivoque, pero esto es la caña EN CASO de que se trabaje en equipo, pero para un proyecto pequeñito en solitario, es demasiada complicación y no aporta ninguna ventaja
 
+# Ejecutar un contenedor ya creado
+
+## Directorio montado
+
+Se refiere a una carpeta de tu ordenador que se conecta dentro del contenedor, así puedes obtener cualquier archivo creado por el contenedor
+
+Para montar se usa 
+
+docker -v `ruta:ruta_contenedor`
+
+# Tengo un problema
+
+## docker: error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.52/containers/create": EOF
+
+Docker no está iniciado
+
 # Bibliografía
 
 [Aprende Docker ahora! curso completo gratis desde cero! -HolaMundo](https://youtu.be/4Dko5W96WHg)re

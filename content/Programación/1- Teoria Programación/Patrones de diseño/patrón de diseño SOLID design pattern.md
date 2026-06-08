@@ -1,5 +1,5 @@
 
-Aplicar el patrón de diseño [[(DI) Dependency Inyection]] debería cumplir automáticamente los principio de Single Responsibility y Dependency Inversion
+Aplicar el patrón de diseño [[Programacion (DI) Dependency Inyection]] debería cumplir automáticamente los principio de Single Responsibility y Dependency Inversion
 # Definiciones
 
 - Módulo / clase de alto nivel es aquella que está más cerca del usuario, la que el usuario acciona

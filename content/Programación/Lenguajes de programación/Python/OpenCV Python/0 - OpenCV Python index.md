@@ -1,0 +1,1 @@
+Este contenido es de visión por ordenador o computer vision. He decidido hacerlo con Python debido a la experiencia previa y gusto personal

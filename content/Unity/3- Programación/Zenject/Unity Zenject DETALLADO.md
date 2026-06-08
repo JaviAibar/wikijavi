@@ -1,6 +1,6 @@
-Es una librería gratuita para la implementación de la [[(DI) Dependency Inyection|inyección de dependencias (DI)]] que puedes [encontrar aquí, en Github](https://github.com/modesttree/Zenject)
+Es una librería gratuita para la implementación de la [[Programacion (DI) Dependency Inyection|inyección de dependencias (DI)]] que puedes [encontrar aquí, en Github](https://github.com/modesttree/Zenject)
 
-Para info general del patrón de diseño (DI) Dependency Inyection,  [[(DI) Dependency Inyection|mira aquí]] 
+Para info general del patrón de diseño (DI) Dependency Inyection,  [[Programacion (DI) Dependency Inyection|mira aquí]] 
 
 Para ver la instalación y primeros pasos, [[Unity Zenject GUÍA RÁPIDA|ve a la guía rápida]]
 

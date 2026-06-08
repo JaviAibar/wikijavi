@@ -9,7 +9,7 @@ La talla del problema (los items que entran en juego) se representan con una `n`
 Normalmente se habla de:
 * caso mejor (cuando todo sale bien, solución trivial o ya encontrada) también llamado `Big Omega`, 
 * caso medio (que es el que se dará con mayor frecuencia) que llamamos `big theta` 
-* y caso peor (que analiza el punto más débil del algoritmo, por ejemplo, que nunca tome el mejor pivote en el caso de [Quicksort](https://sites.google.com/d/13BAZX83ZVzuHzEhdp8djpzp8Y_hPuGTi/p/1vVbHuf7NgWKXYMd2D2KvPCRbP32554UG/edit), por ejemplo) que ya hemos comentado que llamamos Big O
+* y caso peor (que analiza el punto más débil del algoritmo, por ejemplo, que nunca tome el mejor pivote en el caso de  [[Quicksort]], por ejemplo) que ya hemos comentado que llamamos Big O
 
 # Reglas generales
 

@@ -1,6 +1,6 @@
 # Índice
 [[10 consejos de Clean Code]]
-[[Orden de aparición en los archivos de código]]
+[[CS Orden de aparición en los archivos de código]]
 
 
 
@@ -40,7 +40,7 @@
 
 [Keywords](https://sites.google.com/view/wikijavi/inform%C3%A1tica/buenas-pr%C3%A1cticas/clean-code?authuser=0#h.4phgfdcy6afq)
 
-# [[Orden de aparición en los archivos de código]]
+# [[CS Orden de aparición en los archivos de código]]
 
 #  Principio de reutilización de abstracciones (RAP Reused Abstraccions Principle) 
 

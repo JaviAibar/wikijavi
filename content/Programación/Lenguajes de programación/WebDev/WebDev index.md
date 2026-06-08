@@ -10,7 +10,7 @@
 [[HTML]]
 [[JQuery]]
 [[NodeJS]]
-[[PowerUp para Trello]]
+[[JS PowerUp para Trello JS]]
 [[React]]
 [[ViteJS]]
 [[WebAssambly Wasm]]

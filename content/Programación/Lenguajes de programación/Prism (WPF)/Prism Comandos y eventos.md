@@ -1,4 +1,4 @@
-Consisten en la siguiente estructura (aunque puedes implementar rápidamente uno con los snippets que traen o que he reproducido [[Snippets|aquí]])
+Consisten en la siguiente estructura (aunque puedes implementar rápidamente uno con los snippets que traen o que he reproducido [[CS Unity WPF Snippets|aquí]])
 
 # DelegateCommand
 

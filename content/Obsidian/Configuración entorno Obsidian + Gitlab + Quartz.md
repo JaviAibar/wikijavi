@@ -1,6 +1,6 @@
 [Obsidian](https://obsidian.md/) es el software para tomar notas que uso para WikiJavi.
 
-[Quartz](https://quartz.jzhao.xyz/) entonces convierte los archivos `.md` generados en Obsidian y los convierte en una web estática (HTML + CSS + demás).
+[Quartz](https://quartz.jzhao.xyz/) entonces convierte los archivos obsidian (`.md`) y los convierte en una web estática (HTML + CSS + demás).
 
 Entonces mediante un commit se suben los cambios a [Gitlab](https://gitlab.com/JaviAib/wikijavi).
 
@@ -59,11 +59,12 @@ pages:
 
 ```
 
-Esto será procesado automáticamente por gitlab para que Quartz haga la build (convertir de .md a web) y lo publicará en la gitlab pages
+Esto será procesado automáticamente por gitlab para que Quartz haga la build (convertir de .md a web) y lo publicará en la `gitlab pages`
 
 > [!warning]  Siendo gitlab, probablemente la rama esté protegida
 > Para desbloquearla deberás hacer lo indicado [[Gitlab|en esta página]]
 
 Y creo que eso es todo
+
 
 

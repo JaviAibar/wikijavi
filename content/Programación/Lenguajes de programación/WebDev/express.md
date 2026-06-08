@@ -123,4 +123,4 @@ app.post('/upload-file', upload.fields([
 ## Adicional
 
 Para tratamiento de cors, [[Cors|aquí]]
-Para uso de bd (sqlite) [[SQLite en JS|aquí]]
+Para uso de bd (sqlite) [[JS SQLite en JS|aquí]]

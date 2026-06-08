@@ -26,7 +26,7 @@ Debemos poner el x:Name en el ListView que luego referenciaremos en el CommandPa
 </ListView>
 ```
 
-Este ejemplo viene del [[4- Ejemplo MVVM]] 
+Este ejemplo viene del [[WPF 4- Ejemplo MVVM]] 
 
 ```xml 
 <ListView>

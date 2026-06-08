@@ -1,3 +1,4 @@
+[[CSharp Optimización|Optimizaciones importante correspondientes a C# aquí]]
 # Consejos de Toptal
 
 ## UpdateLoops
@@ -28,7 +29,7 @@ Para aplicar una textura transparente, favorece los shaders con mezcla alfa (alp
 
 Optimiza tus shaders reduciendo el numero de pases usando variables de baja precision y sustituyendo complicados cálculos matemáticos por texturas pregeneradas
 
-# Consejos del vídeo de [Profiling (sobre este tema se puede leer en esta página)](https://sites.google.com/d/13BAZX83ZVzuHzEhdp8djpzp8Y_hPuGTi/p/1kWCac4hCNW-5D1MYLnmG4BG5ycSqBMSr/edit)
+# Consejos del vídeo de [[Unity Profiling and optimizing]]
 
 ## Object Pooling
 

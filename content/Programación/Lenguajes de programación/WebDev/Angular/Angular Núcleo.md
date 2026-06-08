@@ -2,7 +2,7 @@ Manual basado en [v18](https://angular.dev/tutorials/learn-angular/3-composing-c
 
 ## Config entorno
 
-En [[Configuración entorno Angular]]
+En [[Angular Configuración entorno Angular]]
 
 ## Intro
 

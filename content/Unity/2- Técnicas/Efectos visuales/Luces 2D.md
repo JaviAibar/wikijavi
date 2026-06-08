@@ -2,7 +2,7 @@ Para todo esto es necesario el Universal Render Pipeline (URP): Package Manager 
 
 El emissive map marca qué partes van a brillar, se trata de un sprite cuyas partes pintadas en blanco emitirán luz, las negras no, y las intermedias tendrán un efecto acorde.
 
-![[Pasted image 20250622151855.png]]
+![[Pasted image 20250622151855.png|157]]
 
 ![[Pasted image 20250622151858.png]]
 

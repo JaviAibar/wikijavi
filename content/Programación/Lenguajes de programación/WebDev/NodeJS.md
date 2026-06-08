@@ -1,4 +1,4 @@
-_Para ver un ejemplo de PowerUp para Trello [[PowerUp para Trello|click aquí]]_
+_Para ver un ejemplo de PowerUp para Trello [[JS PowerUp para Trello JS|click aquí]]_
 
 NodeJS es también JS pero para el servidor y orientado a eventos asíncronos
 
@@ -209,7 +209,7 @@ function nombreFuncion(argumentos) {
 
 ## Módulos
 
-Información sobre importar y exportar módulos en vanilla JS [[Modulos|aquí]]
+Información sobre importar y exportar módulos en vanilla JS [[JS Modulos|aquí]]
 
 module.exports es el objeto en el que pondremos todo lo que queramos exportar
 
@@ -324,6 +324,29 @@ exec('ls -la', (error, stdout, stderr) => {
 });
 ```
 
+# Tengo un problema
+
+## (node:2436) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
+
+Eso es porque NodeJS carga los módulos con `require`, no con `import ... from`
+
+## TypeError: require(...) is not a function
+
+Es posible que sea porque estás intentando cargar los módulos como
+
+```js
+// MAL
+var modulo = require("nombre_modulo)
+```
+
+lo correcto es 
+
+```js
+// BIEN
+const modulo = require("nombre_modulo)
+```
+
+> [!note] Es decir, cuando importas un módulo, debe ser importado con `const` no con `var`
 # Bibliografía
 
 [https://youtu.be/1hpc70_OoAg](https://youtu.be/1hpc70_OoAg) 

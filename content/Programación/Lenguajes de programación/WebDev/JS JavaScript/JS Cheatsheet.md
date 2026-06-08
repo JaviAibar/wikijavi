@@ -6,6 +6,23 @@ str.charAt(0);            // returns H
 str[0];                   // returns H
 ```
 
+# interpolación string / Template literals / plantilla literales
+
+```js 
+`string text`
+
+`string text line 1
+ string text line 2`
+
+`string text ${expression} string text`
+
+tagFunction`string text ${expression} string text`
+``` 
+
+> [!note] tagFunction
+> Se refiere a que puedes pasarle una función, su return será lo que rellene el string. En este ejemplo, harías una función llamada tagFunction que devuelve una variable llamada expression
+
+
 # trim
 
 ```js
@@ -23,6 +40,41 @@ function myFunction(value) {
   return value * 2;  
 }
 ```
+
+# Esperar que cargue el DOM
+
+```javascript
+const log = document.querySelector(".event-log-contents");
+const reload = document.querySelector("#reload");
+
+reload.addEventListener("click", () => {
+  log.textContent = "";
+  setTimeout(() => {
+    window.location.reload(true);
+  }, 200);
+});
+
+window.addEventListener("load", (event) => {
+  log.textContent += "load\n";
+});
+
+document.addEventListener("readystatechange", (event) => {
+  log.textContent += `readystate: ${document.readyState}\n`;
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  log.textContent += "DOMContentLoaded\n";
+});
+
+// Resultado:
+/*
+readystate: interactive
+DOMContentLoaded
+readystate: complete
+load
+*/
+```
+
 
 # Array filter
 
@@ -81,6 +133,21 @@ document.getElementById("demo").innerHTML = "Prueba";
 
 > [!Note] Atención
 > Primero se mostrará "Prueba" y a los 3 segundos (cuando se complete el setTimeout), se sustituirá por el resultado
+
+
+# Para obtener valor de un Toggle / check / casilla de verificación / switch / interruptor
+
+```js 
+toggle.checked
+``` 
+
+```js 
+const toggle = document.getElementById("miToggle");
+
+const valor = toggle.checked ? toggle.value : 0;
+console.log(valor);
+```
+
 
 #WIP 
 
