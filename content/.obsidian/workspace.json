@@ -164,13 +164,23 @@
               "icon": "lucide-archive",
               "title": "Todas las propiedades"
             }
+          },
+          {
+            "id": "689805188988a06b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 493.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,10 +190,11 @@
       "canvas:Crear nuevo lienzo": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4227c291ac4bd158",
+  "active": "f081ab8d861b5054",
   "lastOpenFiles": [
     "Obsidian/Cheatsheet Obsidian + Quartz.md",
     "Programación/1- Teoria Programación/Algoritmica/Algoritmica index.md",
@@ -193,46 +204,46 @@
     "zz Media/Pasted image 20251201182025.png",
     "zz Media/Pasted image 20251026181219.png",
     "zz Media/Pasted image 20251026173957.png",
-    "Programación/Lenguajes de programación/Android/Kotlin/AA Kotlin conceptos.md",
-    "Programación/Lenguajes de programación/Programación Conceptos transversales básicos.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Kotlin optimizacion.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Kotlin funciones lambda.md",
+    "Programación/Android/Kotlin/AA Kotlin conceptos.md",
+    "Programación/Programación Conceptos transversales básicos.md",
+    "Programación/Android/Kotlin/Kotlin optimizacion.md",
+    "Programación/Android/Kotlin/Kotlin funciones lambda.md",
     "Programación/1- Teoria Programación/UML.md",
     "Sin título.canvas",
     "index.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Kotlin Activar vibración.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Kotlin 01 basics.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Kotlin Gson.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Android Clase R.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Android Gradle.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/AA Android Correspondencias Versiones - API Lvl.md",
+    "Programación/Android/Kotlin/Kotlin Activar vibración.md",
+    "Programación/Android/Kotlin/Kotlin 01 basics.md",
+    "Programación/Android/Kotlin/Kotlin Gson.md",
+    "Programación/Android/Kotlin/Android Clase R.md",
+    "Programación/Android/Kotlin/Android Gradle.md",
+    "Programación/Android/Kotlin/AA Android Correspondencias Versiones - API Lvl.md",
     "Programación/1- Teoria Programación/Optimizaciones generales/Programación dinámica.md",
     "Programación/1- Teoria Programación/Optimizaciones generales/Programación asincrónica.md",
     "Programación/1- Teoria Programación/Optimizaciones generales/CS Optimizaciones generales Núcleo CS.md",
     "Programación/1- Teoria Programación/Optimizaciones generales/CompararBits.canvas",
     "Programación/1- Teoria Programación/Optimizaciones generales/Quicksort.md",
-    "Programación/Lenguajes de programación/Android/Kotlin/Kotlin corrutinas Coroutines.md",
-    "Programación/Lenguajes de programación/Android/old/El adb ayer funcionaba y hoy no -_-.md",
-    "Programación/Lenguajes de programación/Android/old/Desarrollar para android vlc.md",
+    "Programación/Android/Kotlin/Kotlin corrutinas Coroutines.md",
+    "Programación/Android/old/El adb ayer funcionaba y hoy no -_-.md",
+    "Programación/Android/old/Desarrollar para android vlc.md",
     "Programación/1- Teoria Programación/Expresiones regulares.md",
     "zz Media/Pasted image 20240731183250.png",
     "zz Media/Pasted image 20240802120933.png",
     "zz Media/Pasted image 20240731183320.png",
     "Programación/1- Teoria Programación/Optimizaciones generales/aa OtraPrueba.canvas",
     "Programación/1- Teoria Programación/Optimizaciones generales/aa prueba.canvas",
-    "Programación/Lenguajes de programación/Android/old/SharedPreferences.md",
+    "Programación/Android/old/SharedPreferences.md",
     "zz Media/Pasted image 20250611174642.png",
-    "Programación/Lenguajes de programación/WebDev/JS JavaScript/Google Apps Script.md",
-    "Programación/Lenguajes de programación/WebDev/JS JavaScript/JavaScript Núcleo.md",
+    "Programación/WebDev/JS JavaScript/Google Apps Script.md",
+    "Programación/WebDev/JS JavaScript/JavaScript Núcleo.md",
     "Programación/Lenguajes de programación/Android/old/PruebaLienzo.canvas",
     "Sin título 1.base",
     "zz Media/Pasted image 20260423101303.png",
     "Informática general/Linux",
     "Programación/1- Teoria Programación/Estructuras de datos",
     "Informática general/Criptografía y seguridad",
-    "Programación/Lenguajes de programación/Android/Kotlin",
-    "Programación/Lenguajes de programación/Android/old",
-    "Programación/Lenguajes de programación/Python/OpenCV Python",
+    "Programación/Android/Kotlin",
+    "Programación/Android/old",
+    "Programación/Python/OpenCV Python",
     "Sin título.base",
     "Prueba.base",
     "Unity/3- Programación/Programación gráfica",

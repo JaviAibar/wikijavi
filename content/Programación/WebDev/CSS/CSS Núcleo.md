@@ -2,7 +2,7 @@
 ## Conceptos
 [[Especificidad]]
 [[Foco]]
-[[Programación/Lenguajes de programación/WebDev/CSS/Conceptos/Funciones]]
+[[Funciones]]
 [[Herencia]]
 [[Selectores]]
 [[Unidades]]
