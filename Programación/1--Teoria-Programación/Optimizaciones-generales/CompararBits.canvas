@@ -1,0 +1,46 @@
+{
+	"nodes":[
+		{
+			"id":"c83ee41aaeed4d51",
+			"type":"file",
+			"file":"zz Media/Pasted image 20250611174642.png",
+			"styleAttributes":{},
+			"x":-660,
+			"y":-300,
+			"width":400,
+			"height":247
+		},
+		{
+			"id":"1cb7a7ed07c6fa7b",
+			"type":"file",
+			"file":"zz Media/Pasted image 20250611174730.png",
+			"styleAttributes":{},
+			"x":-200,
+			"y":-298,
+			"width":400,
+			"height":245
+		},
+		{
+			"id":"208c741f8b35fdcf",
+			"type":"text",
+			"text":"_Comparación sin bit_",
+			"styleAttributes":{},
+			"x":-660,
+			"y":-40,
+			"width":400,
+			"height":60
+		},
+		{
+			"id":"ee1105204a2c7796",
+			"type":"text",
+			"text":"_Comparación con bit_",
+			"styleAttributes":{},
+			"x":-200,
+			"y":-40,
+			"width":400,
+			"height":60
+		}
+	],
+	"edges":[],
+	"metadata":{"version":"1.0-1.0"}
+}
