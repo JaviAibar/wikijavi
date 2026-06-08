@@ -2,6 +2,9 @@
 
 [Quartz](https://quartz.jzhao.xyz/) entonces convierte los archivos obsidian (`.md`) y los convierte en una web estática (HTML + CSS + demás).
 
+>[!warning] ATENCIÓN OBSOLETO
+>Ya no se publica en Gitlab, sino en Github debido a las limitaciones de (creo) espacio en Gitlab
+
 Entonces mediante un commit se suben los cambios a [Gitlab](https://gitlab.com/JaviAib/wikijavi).
 
 Entonces Gitlab ejecuta automáticamente unos procesos (Pipelines CI/CD) que son los que ejecutan Quartz y copian los archivos a la carpeta correspondiente. Estos pipelines están configurados mediante un archivo yaml del que hablaremos [[#Configuración en detalle|abajo]].

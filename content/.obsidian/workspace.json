@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/1- Teoria Programación/UML.md",
+                "file": "Obsidian/Configuración entorno Obsidian + Gitlab + Quartz.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de UML"
+              "title": "Esquema de Configuración entorno Obsidian + Gitlab + Quartz"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 493.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f081ab8d861b5054",
+  "active": "4227c291ac4bd158",
   "lastOpenFiles": [
     "Obsidian/Cheatsheet Obsidian + Quartz.md",
     "Programación/1- Teoria Programación/Algoritmica/Algoritmica index.md",
