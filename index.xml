@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Unity/6--GUI/Consejos-para-una-buena-interfaz</link>
     <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Consejos-para-una-buena-interfaz</guid>
     <description>...</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Cómo funcionan los LayoutGroup</title>
     <link>https://quartz.jzhao.xyz/Unity/6--GUI/C%C3%B3mo-funcionan-los-LayoutGroup</link>
     <guid>https://quartz.jzhao.xyz/Unity/6--GUI/C%C3%B3mo-funcionan-los-LayoutGroup</guid>
     <description>Por simplicidad, ya que existen varios tipos, hablaremos en términos del Vertical Layout Group, pero se puede aplicar al resto Este componente sitúa los elementos uno encima de otro, ...</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Ejemplo de uso de los anchor (anclas)</title>
     <link>https://quartz.jzhao.xyz/Unity/6--GUI/Ejemplo-de-uso-de-los-anchor-(anclas)</link>
     <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Ejemplo-de-uso-de-los-anchor-(anclas)</guid>
     <description>Cuando las anclas están juntas. Indican su punto de origen, dejando las dimensiones de la pieza fijas El monitor tiene las anclas en el centro del canvas, por lo que aunque cambiemos el tamaño de la ventana, el monitor mantiene posición (centro del canvas) y tamaño Ahora hemos igualado el ancho de las anclas al del monitor, es decir, es una fracción del tamaño de la pantalla.</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Scroll</title>
     <link>https://quartz.jzhao.xyz/Unity/6--GUI/Scroll</link>
     <guid>https://quartz.jzhao.xyz/Unity/6--GUI/Scroll</guid>
     <description>Jerarquía Esta es la jerarquía necesaria para tener un menú con scroll ScrollList - Es el GameObject que hace de marco y lo conecta todo, tiene como componente ScrollRect que asociará ...</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Dar tamaño a particula</title>
     <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Dar-tama%C3%B1o-a-particula</link>
     <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Dar-tama%C3%B1o-a-particula</guid>
     <description>Es lo normal, las partículas tienden a tener forma cuadrada (o eso creo). Pero se puede cambiar con el Start size 3D.</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Partícula detrás de GameObject</title>
     <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</link>
     <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Problemas-con-particulas-Unity/Part%C3%ADcula-detr%C3%A1s-de-GameObject</guid>
     <description>WIP.</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Propiedades de las partículas (configuraciones)</title>
     <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</link>
     <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Propiedades-de-las-part%C3%ADculas-(configuraciones)</guid>
     <description>Menu Particle System Algunos de estos valores tiene una flechita a la derecha para aleatorizar la cosa. Duration: Segundos que dura un ciclo, si quitas el loop, una vez pasados dichos segundo, dejarán de aparecer nuevas particulas.</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Textura y material para particulas</title>
     <link>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</link>
     <guid>https://quartz.jzhao.xyz/Unity/7--Particulas/Textura-y-material-para-particulas</guid>
     <description> .</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Operación Dot (producto escalar)</title>
     <link>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</link>
     <guid>https://quartz.jzhao.xyz/Unity/8--Mates/Operaci%C3%B3n-Dot-(producto-escalar)</guid>
     <description>Aplica el producto escalar entre dos vectores.</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item><item>
     <title>Atajos Shortcuts</title>
     <link>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</link>
     <guid>https://quartz.jzhao.xyz/Unity/9--Trucos-de-Unity/Atajos-Shortcuts</guid>
     <description>Ctrl + K ⇒ Permite buscar en toda la jerarquía | esto también te permite buscar aquello que está roto (missing script p.e.).</description>
-    <pubDate>Mon, 08 Jun 2026 07:25:37 GMT</pubDate>
+    <pubDate>Mon, 08 Jun 2026 07:34:54 GMT</pubDate>
   </item>
     </channel>
   </rss>
